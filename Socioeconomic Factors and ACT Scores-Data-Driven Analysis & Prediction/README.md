@@ -9,12 +9,14 @@
 <p>In this project, two datasets are made use. The primary data set is the EdGap data set from EdGap.org. This data set from 2016 includes information about average ACT or SAT scores for schools and several socioeconomic characteristics of the school district. Some of the features of the dataset are the unemployment rate, marital status & percentage of college attended. The secondary data set is basic information about each school from the National Center for Education Statistics. Significant factors of the dataset include school id, school type & school level. </p>
 
 ## Methodology
-<p>1.	Data Collection: The socioeconomic data is collected from EdGap. school information data is from the National Center for Education Statistics org while the school information data is from the National Center for Education Statistics.</p>
+<ol>
+<li>Data Collection: The socioeconomic data is collected from EdGap. school information data is from the National Center for Education Statistics org while the school information data is from the National Center for Education Statistics.</li>
 
-<p>2.	Data Preprocessing: Eliminated unimportant features from the two datasets. Renamed the columns and joined both the data frames of the two datasets using the identity of the school as the key. The rows corresponding to the missing values of the target variable are dropped. After train-test-split, scaling and imputation are carried out.</p>
+<li>Data Preprocessing: Eliminated unimportant features from the two datasets. Renamed the columns and joined both the data frames of the two datasets using the identity of the school as the key. The rows corresponding to the missing values of the target variable are dropped. After train-test-split, scaling and imputation are carried out.</li>
 
-<p>3.	Modeling: The machine learning algorithms implemented for the prediction are the OLS method of least squares and the Random Forest Regressor. Design matrices are generated for train and test sets. The parameters focused on hyperparameter tuning for the Random Forest regressor model are Maximum Depth, Number of Trees, & Minimum number of samples. The model is trained using the best hyperparameters found by Randomized Search CV to predict the average ACT score.</p>
-<p>4.	Evaluation: The models were evaluated using metrics such as Root Mean Square Error, Mean Absolute Error & R-squared.</p>
+<li>Modeling: The machine learning algorithms implemented for the prediction are the OLS method of least squares and the Random Forest Regressor. Design matrices are generated for train and test sets. The parameters focused on hyperparameter tuning for the Random Forest regressor model are Maximum Depth, Number of Trees, & Minimum number of samples. The model is trained using the best hyperparameters found by Randomized Search CV to predict the average ACT score.</li>
+<li>Evaluation: The models were evaluated using metrics such as Root Mean Square Error, Mean Absolute Error & R-squared.</li>
+</ol>
 
 ## Computational Results
 
