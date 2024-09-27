@@ -31,17 +31,18 @@
     &nbsp;&nbsp;Malignant (0.94): The F1-score for malignant is also high, but slightly lower due to lower recall compared to benign cases.</p>
 </div>
 
-<table border="1" cellspacing="0" cellpadding="5">
+<p>Logistic Regression Model<br>
+Accuracy: 87%</p>
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: auto; border-color: black; text-align: center;">
   <tr>
     <th></th>
-    <th>Accuracy</th>
     <th>Precision</th>
     <th>Recall</th>
     <th>f1-score</th>
   </tr>
   <tr>
     <td>benign</td>
-    <td>0.87</td>
     <td>0.91</td>
     <td>0.93</td>
     <td>0.92</td>
@@ -53,6 +54,32 @@
     <td>0.85</td>
   </tr>
 </table>
+
+<p>XGB Classifier<br>
+Accuracy: 96%</p>
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: auto; border-color: black; text-align: center;">
+  <tr>
+    <th></th>
+    <th>Precision</th>
+    <th>Recall</th>
+    <th>f1-score</th>
+  </tr>
+  <tr>
+    <td>benign</td>
+    <td>0.94</td>
+    <td>1.00</td>
+    <td>0.97</td>
+  </tr>
+  <tr>
+    <td>malignant</td>
+    <td>1.00</td>
+    <td>0.88</td>
+    <td>0.94</td>
+  </tr>
+</table>
+
+
 
 
 ## Conclusion
