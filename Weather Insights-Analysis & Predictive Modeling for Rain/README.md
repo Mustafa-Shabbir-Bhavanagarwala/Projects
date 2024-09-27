@@ -25,15 +25,15 @@ Evaluation: The models were evaluated using metrics such as Accuracy, Precision,
 <p>
 After the evaluation of the test results, an accuracy of 85% is achieved. The model appears to predict well on the test set.</p>
 <li>
-2. Precision</li>
+Precision</li>
 <p>No rain: 0.87 — Out of all the instances predicted as "no rain", 87% were correct.<br>
 Yes rain: 0.74 — Out of all the instances predicted as "yes rain", 74% were correct.</p>
 <li>
-3. Recall</li>
+Recall</li>
 <p>
 No rain: 0.94 — The model correctly identified 94% of the actual "no rain" instances.<br>
 Yes rain: 0.56 — The model correctly identified 56% of the actual "yes rain" instances.</p>
-<li>4. F1-Score</li>
+<li>F1-Score</li>
 <p>No rain: 0.91 — The F1-score for "no rain" is high, indicating a good balance between precision and recall.<br>
 Yes rain: 0.64 — The F1-score for "yes rain" is lower, indicating that the model struggles more with accurately identifying rainfall.</p>
 </ol>
