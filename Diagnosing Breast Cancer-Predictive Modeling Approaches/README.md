@@ -13,7 +13,7 @@
 <p>This data preprocessing in this project involves checking and removal of the duplicate rows followed by cleaning the column names. Later the data is split into train and test sets. Next the numerical predictor variables in the training and testing sets are scaled to have a mean of 0 and a standard deviation of 1. The two models decided for implementation are logistic regression and XG Boost. An XGB Classifier model is initialized, and a Randomized Search CV is used to find the best hyperparameters, with a random sampling of parameters like learning_rate, max_depth, and subsample. The search is performed using 5-fold cross-validation. Once the best parameters are found, the model is trained on the training data. The metrics used for evaluation are Accuracy, Precision, Recall & F1 score.</p>
 
 ## Results:
-
+<p>XGB Classifier</p>
 <div style="background-color: transparent;">
   <p>- Accuracy<br>
     &nbsp;&nbsp;An accuracy of 96% is achieved on the test set, indicating a great performance.</p>
@@ -31,11 +31,7 @@
     &nbsp;&nbsp;Malignant (0.94): The F1-score for malignant is also high, but slightly lower due to lower recall compared to benign cases.</p>
 </div>
 
-
-<table border="1">
-  <tr>
-    <th colspan="5">Logistic Regression Model</th>
-  </tr>
+<table border="1" cellspacing="0" cellpadding="5">
   <tr>
     <th></th>
     <th>Accuracy</th>
@@ -55,34 +51,6 @@
     <td>0.88</td>
     <td>0.83</td>
     <td>0.85</td>
-  </tr>
-</table>
-
-<br>
-
-<table border="1">
-  <tr>
-    <th colspan="5">XGB Classifier</th>
-  </tr>
-  <tr>
-    <th></th>
-    <th>Accuracy</th>
-    <th>Precision</th>
-    <th>Recall</th>
-    <th>f1-score</th>
-  </tr>
-  <tr>
-    <td>benign</td>
-    <td>0.96</td>
-    <td>0.94</td>
-    <td>1.00</td>
-    <td>0.97</td>
-  </tr>
-  <tr>
-    <td>malignant</td>
-    <td>1.00</td>
-    <td>0.88</td>
-    <td>0.94</td>
   </tr>
 </table>
 
