@@ -33,7 +33,7 @@
 </div>
 
 <li>Logistic Regression Model</li>
-<p>&nbsp;&nbsp;Accuracy: 87%</p>
+<p>&nbsp;Accuracy: 87%</p>
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: auto; border-color: black; text-align: center;">
   <tr>
@@ -57,7 +57,7 @@
 </table>
 
 <li>XGB Classifier</li>
-<p>&nbsp;&nbsp;Accuracy: 96%</p>
+<p>&nbsp;Accuracy: 96%</p>
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: auto; border-color: black; text-align: center;">
   <tr>
