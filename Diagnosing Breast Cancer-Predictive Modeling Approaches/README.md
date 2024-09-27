@@ -14,19 +14,6 @@
 
 ## Results:
 
-<p>XGB Classifier</p>
-<p>-Accuracy</p>
-<p>  An accuracy of 96% is achieved on the test set, indicating a great performance.</p>
-<p>-Precision</p>
-<p>  Benign (0.94): Out of all the instances predicted as benign, 94% were correct.</p>
-<p>  Malignant (1.00): Out of all the instances predicted as malignant, 100% were correct.</p>
-<p>-Recall</p>
-<p>  Benign (1.00): The model correctly identified 100% of the actual benign instances.</p>
-<p>  Malignant (0.88): The model correctly identified 88% of the actual malignant instances.</p>
-<p>-F1-Score</p>
-<p>  Benign (0.97): The F1-score for benign is high, showing good recall and precision.</p>
-<p>  Malignant (0.94): The F1-score for malignant is also high, but slightly lower due to lower recall compared to benign cases.</p>
-
 <div style="background-color: transparent;">
   <p>- Accuracy<br>
     &nbsp;&nbsp;An accuracy of 96% is achieved on the test set, indicating a great performance.</p>
