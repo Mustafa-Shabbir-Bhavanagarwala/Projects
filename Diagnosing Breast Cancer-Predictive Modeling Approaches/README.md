@@ -27,6 +27,24 @@
 <p>  Benign (0.97): The F1-score for benign is high, showing good recall and precision.</p>
 <p>  Malignant (0.94): The F1-score for malignant is also high, but slightly lower due to lower recall compared to benign cases.</p>
 
+<pre>
+- Accuracy
+  An accuracy of 96% is achieved on the test set, indicating a great performance.
+
+- Precision
+  Benign (0.94): Out of all the instances predicted as benign, 94% were correct.
+  Malignant (1.00): Out of all the instances predicted as malignant, 100% were correct.
+
+- Recall
+  Benign (1.00): The model correctly identified 100% of the actual benign instances.
+  Malignant (0.88): The model correctly identified 88% of the actual malignant instances.
+
+- F1-Score
+  Benign (0.97): The F1-score for benign is high, showing good recall and precision.
+  Malignant (0.94): The F1-score for malignant is also high, but slightly lower due to lower recall compared to benign cases.
+</pre>
+
+
 <table border="1">
   <tr>
     <th colspan="5">Logistic Regression Model</th>
