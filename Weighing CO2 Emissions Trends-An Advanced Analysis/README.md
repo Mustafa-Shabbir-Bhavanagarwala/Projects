@@ -1,4 +1,4 @@
-<h1 align="center">Advanced Analysis: CO2 emissions trends</h1>
+<h1 align="center">Weighing CO2 Emissions Trends: An Advanced Analysis</h1>
 
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 
