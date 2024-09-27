@@ -9,12 +9,20 @@
 <p>The project uses the cars dataset which includes features like 'Name', 'Miles_per_Gallon', 'Displacement', 'Horsepower',  and 'Origin'. Several ML models are implemented in this project to study the relationship between the car’s engine performance metrics and its fuel efficiency. Alternate regression models are also implemented. A customized best subset selection function is also implemented with the aim of improving the results.</p>
 
 ## Methods used
-<p>1.	Data Collection: The "Cars" dataset is a well-known dataset used for the study of car features. The dataset is part of the vega_datasets package</p>
-
-<p>2.	Data Preprocessing: Dropped duplicate rows followed by one hot encoding for categorical variables. Missing values corresponding to the “miles per gallon” target variable are dropped. After the train-test-split, scaling, and imputation are carried out.</p>
-
-<p>3.	Modeling: Many Machine Learning models are implemented for the study such as the OLS method of least squares, Random Forest Regressor, Alternative regression model: Quadratic model, OLS is also implemented with best subset selection.</p>
-<p>4.	Evaluation: The models were evaluated using metrics such as Root Mean Square Error, Mean Absolute Error & R-squared.</p>
+<ol>
+  <li>
+    <strong>Data Collection:</strong> The "Cars" dataset is a well-known dataset used for the study of car features. The dataset is part of the <i>vega_datasets</i> package.
+  </li>
+  <li>
+    <strong>Data Preprocessing:</strong> Dropped duplicate rows followed by one hot encoding for categorical variables. Missing values corresponding to the “miles per gallon” target variable are dropped. After the train-test-split, scaling, and imputation are carried out.
+  </li>
+  <li>
+    <strong>Modeling:</strong> Many Machine Learning models are implemented for the study such as the OLS method of least squares, Random Forest Regressor, Alternative regression model: <u>Quadratic model</u>, OLS is also implemented with best subset selection.
+  </li>
+  <li>
+    <strong>Evaluation:</strong> The models were evaluated using metrics such as Root Mean Square Error, Mean Absolute Error & R-squared.
+  </li>
+</ol>
 
 ## Computational Results
 
