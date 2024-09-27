@@ -16,7 +16,7 @@
 <p>3.	Modeling: The machine learning algorithms implemented for the prediction are the OLS method of least squares and the Random Forest Regressor. Design matrices are generated for train and test sets. The parameters focused on hyperparameter tuning for the Random Forest regressor model are Maximum Depth, Number of Trees, & Minimum number of samples. The model is trained using the best hyperparameters found by Randomized Search CV to predict the average ACT score.</p>
 <p>4.	Evaluation: The models were evaluated using metrics such as Root Mean Square Error, Mean Absolute Error & R-squared.</p>
 
-Computational Results
+## Computational Results
 
 <table border="1" cellpadding="5" cellspacing="0">
   <tr>
