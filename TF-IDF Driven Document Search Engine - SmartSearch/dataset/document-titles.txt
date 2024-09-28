@@ -1,0 +1,18 @@
+austen-emma	Emma by Jane Austen
+austen-persuasion	Persuasion by Jane Austen
+austen-sense	Sense and Sensibility by Jane Austen
+bible-kjv	The King James Bible
+blake-poems	Poems by William Blake
+bryant-stories	Stories to Tell to Children by Sara Cone Bryant
+burgess-busterbrown	The Adventures of Buster Bear by Thornton W. Burgess
+carroll-alice	Alice's Adventures in Wonderland by Lewis Carroll
+chesterton-ball	The Ball and The Cross by G.K. Chesterton
+chesterton-brown	The Wisdom of Father Brown by G. K. Chesterton
+chesterton-thursday	The Man Who Was Thursday by G. K. Chesterton
+edgeworth-parents	The Parent's Assistant by Maria Edgeworth
+melville-moby_dick	Moby Dick by Herman Melville
+milton-paradise	Paradise Lost by John Milton
+shakespeare-caesar	The Tragedie of Julius Caesar by William Shakespeare
+shakespeare-hamlet	The Tragedie of Hamlet by William Shakespeare
+shakespeare-macbeth	The Tragedie of Macbeth by William Shakespeare
+whitman-leaves	Leaves of Grass by Walt Whitman
