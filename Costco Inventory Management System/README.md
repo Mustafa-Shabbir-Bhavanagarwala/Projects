@@ -29,3 +29,5 @@ the user interface to allow users to interact with the database</p>
 <li>Logical ER Diagram</li>
 ![Entity Relationship Diagram](https://github.com/Mustafa-Shabbir-Bhavanagarwala/Projects/tree/main/Costco%20Inventory%20Management%20System/images/ERDiagram.png)
 
+</ul>
+
