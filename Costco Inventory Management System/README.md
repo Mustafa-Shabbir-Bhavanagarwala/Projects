@@ -41,18 +41,18 @@ queries. Each query has a description that explains what data it will return. On
 selects a query and enters any required parameters (like delivery date), they can execute 
 the query.</p>
 
-![Entity Relationship Diagram](./images/UserInterface.png)
+![UserInterface](./images/UserInterface.png)
 <br>
 <br>
 <p>The query results are then displayed in a table format. Users can also export the results 
 to a PDF or Excel file for future reference.</p>
 
-![Entity Relationship Diagram](./images/queryResults.png)
+![queryResults](./images/queryResults.png)
 <br>
 <br>
 <p>This is how the sample downloaded output will look like in excel file.</p>
 
-![Entity Relationship Diagram](./images/sampleOutput.png)
+![sampleOutput](./images/sampleOutput.png)
 
 <br>
 <br>
@@ -65,11 +65,11 @@ to a PDF or Excel file for future reference.</p>
 of time. The y-axis shows the membership tier (Gold, Platinum, Silver), and the x-axis the 
 number of deliveries. </p>
 
-![Entity Relationship Diagram](./images/membership.png)
+![membership](./images/membership.png)
 <br>
 <br>
 <p>The graph shows the number of successful Deliveries completed by each Delivery Agent 
 and it is sorted by Agent ID. The y-axis displays the Agent ID and the x-axis the number 
 of successful deliveries. </p>
 
-![Entity Relationship Diagram](./images/delivery.png)
+![delivery](./images/delivery.png)
