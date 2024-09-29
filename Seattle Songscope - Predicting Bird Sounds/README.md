@@ -7,11 +7,13 @@
 networks are developed and compared across various structures and hyperparameters 
 to achieve optimal performance. The binary classification is done between two bird species which are Blue Jay versus Barn Swallow, while multi-class classification is carried out for all the twelve species.
 <br>
+<br>
 The technology used to carry out the project is Python. This project aids wildlife conservation, ecological 
 research, and urban planning by automatically identifying bird species through sound. It 
 supports species monitoring, biodiversity studies, and environmental impact 
 assessments, while enhancing birdwatching apps and educational tools, fostering public 
 engagement and sustainable development. 
+<br>
 <br>
 Further details regarding the project can be found here: [ProjectReport](Report.pdf)
 
