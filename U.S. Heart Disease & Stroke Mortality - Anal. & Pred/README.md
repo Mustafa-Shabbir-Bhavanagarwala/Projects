@@ -1,27 +1,21 @@
-<h1 align="center">U.S. Drug Use - Analysis, Inference & Prediction </h1>
+<h1 align="center">Analysis & Predictive Modelling for Heart Disease and Stroke Mortality Rates Among U.S. Adults Aged 35+ </h1>
 
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 
 ## Overview
-<p>
-This project involves analysis and prediction of youth drug usage factors such as  alcohol age of first use, marijuana ever used, and number of days of cigarettes in past month by a person. The methods finalised for the analysis & prediction are Decision trees, Bagging and Random Forest. The dataset involved in this project is collected from National Survey on Drug Use and Health. From the findings it is clear that ‘what grade in now/will be in’ forms a very important 
-predictor to predict ‘alcohol age of first use’. Similarly ‘first used alcohol prior to age 18’
-forms a very important predictor to predict ‘marijuana ever used’. Similarly ‘any 
-tobacco ever used’ forms a very important predictor to predict ‘number of days of 
-cigarettes in past month’. The test MSE for the prediction of 'alcohol age of first use' comes out to be 4.02. The accuracy for the prediction of 'marijuana ever used' results as 90.53%. While an accuracy of 98.12% is achieved while predicting 'number of days of cigarettes in past month'.</p>
 
-<p>
-This 
-approach facilitates targeted interventions and policy recommendations aimed at 
-mitigating substance abuse among adolescents. Insights gained from this study 
-contribute to the development of effective prevention strategies and public health 
-initiatives.</p>
+<p>This project involves analyzing and understanding the variations in heart disease and stroke 
+mortality data among US adults based on factors such as Year, Type of Heart Disease, Age, 
+Gender, Race/Ethnicity. Here the data is preprocessed, variations are analyzed, relations are 
+studied & based on the findings, predictive models with necessary variables are built to 
+forecast mortality rates of U.S population having different heart diseases. The models 
+implemented are Linear Regression and XGB Regressor. The latter one came out to be a 
+better model with an excellent R2 score of 0.939. Python is used to develop the project. </p>
 
-<p>Python is used for the implementation of the project.</p>
+<p> The project is a critical public health initiative as 
+it helps healthcare authorities and policymakers allocate resources, design targeted 
+interventions, and develop preventive strategies to combat the most vulnerable diseases 
+more effectively.</p>
 
-<p>
 
-More information regarding the project can be found here: [Report](Report.pdf)
-
-</p>
 

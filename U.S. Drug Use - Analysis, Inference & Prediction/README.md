@@ -1,4 +1,4 @@
-<h1 align="center">U.S. Drug Use - Analysis, Inference & Prediction </h1>
+<h1 align="center">Analysis, Inference, & Predictive modeling of Drug use by the public of United States</h1>
 
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 

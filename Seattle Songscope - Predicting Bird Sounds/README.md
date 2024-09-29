@@ -12,7 +12,7 @@ The technology used to carry out the project is Python. This project aids wildli
 research, and urban planning by automatically identifying bird species through sound. It 
 supports species monitoring, biodiversity studies, and environmental impact 
 assessments, while enhancing birdwatching apps and educational tools, fostering public 
-engagement and sustainable development. 
+engagement and sustainable development. Future enhancements could include incorporating transfer learning with pre-trained models like VGGish or YAMNet, which are specifically designed for audio data. Additionally, integrating data augmentation techniques for spectrograms and exploring recurrent neural networks (RNNs) or transformers to capture temporal dependencies in bird sounds can improve model performance.
 <br>
 <br>
 
