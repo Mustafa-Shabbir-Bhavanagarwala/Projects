@@ -8,7 +8,9 @@ data, encompassing variables related to individuals and housing, such as age, in
 housing cost, and population density. Here dwelling occupancy status (owner or renter) 
 is analysed & predicted based on various factors. Support vector models (SVM) is analysed and decided upon to implement the project. Three different kernels are implemented of the 
 Support Vector Classifier, cross validation is done to tune the parameters, and feature 
-extraction is done to achieve the best results. The project estimates dwelling occupancy 
+extraction is done to achieve the best results. </p>
+
+<p>The project estimates dwelling occupancy 
 status, which helps to understand housing dynamics, guiding policy decisions, market 
 analysis, and resource allocation. After implementing the three kernals of the Support 
 Vector Classifier which are linear, polynomial, and radial, the radial kernel achieved the 
