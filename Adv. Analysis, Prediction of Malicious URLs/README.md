@@ -22,6 +22,5 @@ with features to notify a user if a link looks suspicious. So, if an account wit
 gets compromised and starts sending phishing emails, instead of relying on the users’ skills to be 
 able to catch it, they would be assisted by this feature before clicking the link.</p>
 
-<br>
 
 More information regarding the project can be found here: [Report](FinalReport.pdf)
