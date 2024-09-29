@@ -15,6 +15,7 @@ assessments, while enhancing birdwatching apps and educational tools, fostering 
 engagement and sustainable development. 
 <br>
 <br>
+
 Further details regarding the project can be found here: [ProjectReport](Report.pdf)
 
 </p>
