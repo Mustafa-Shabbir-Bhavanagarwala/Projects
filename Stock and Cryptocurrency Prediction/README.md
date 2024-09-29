@@ -12,5 +12,7 @@ The entire project was developed using Python. Streamlit software is used to mak
 <br>
 <br>
 Further details regarding the project can be found here: [ProjectReport](FinalReport.pdf)
+<br>
+Further details regarding the project can be found here: [ProjectReport](FinalReport.pdf)
 
 </p>
