@@ -4,8 +4,8 @@
 # class that implements the agent.
 
 AGENTS = [
-          ("agents/bayesianghostbusteragent.py", "BayesianGhostBusterAgent")
-
+          ("agents/bayesianghostbusteragent.py", "BayesianGhostBusterAgent"),
+          ("agents/ghostbusteragent.py",  "GhostBusterAgent")
          ]
 
 ####  DO NOT EDIT BELOW THIS LINE #########
