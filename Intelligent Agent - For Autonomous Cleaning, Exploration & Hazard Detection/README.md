@@ -14,8 +14,9 @@ Non-Sensing Sucky:  the original and most primitive, the agent does not have any
 <li>Memory Sucky:  These agents can build a simple world model based on their limited sensors</li>
 <li>Omniscient Sucky:  Very much a niche product, this agent can get complete information about its environment by having the installed custom sensors at the site
 </li></ul>
+
+Here the data is gathered by running the candidate agents in the simulation testbed and recording the score. The experiments are run over a range of environmental conditions. Statical analysis is carried out for the comparison of the agents performance.
 <br>
-Here the data is gathered by running the candidate agents in the simulation testbed and recording the score. The experiments are run over a range of environmental conditions. Statical analysis is carried out for the comparison of the agents performance.<br>
 
 <ul><li>
 Agents score comparisons in various environments. Percentage improvement comparison with Non Sensing Agent</li></ul>
