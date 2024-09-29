@@ -14,7 +14,7 @@
 
 <li>Data Preprocessing: Eliminated unimportant features from the two datasets. Renamed the columns and joined both the data frames of the two datasets using the identity of the school as the key. The rows corresponding to the missing values of the target variable are dropped. After train-test-split, scaling and imputation are carried out.</li>
 
-<li>Modeling: The machine learning algorithms implemented for the prediction are the OLS method of least squares and the Random Forest Regressor. Design matrices are generated for train and test sets. The parameters focused on hyperparameter tuning for the Random Forest regressor model are Maximum Depth, Number of Trees, & Minimum number of samples. The model is trained using the best hyperparameters found by Randomized Search CV to predict the average ACT score.</li>
+<li>Modeling: Among the machine learning algorithms studied and implemented for the prediction, the OLS method of least squares and the Random Forest Regressor are chosen finally for obtaining accurate results. Design matrices are generated for train and test sets. The parameters focused on hyperparameter tuning for the Random Forest regressor model are Maximum Depth, Number of Trees, & Minimum number of samples. The model is trained using the best hyperparameters found by Randomized Search CV to predict the average ACT score.</li>
 <li>Evaluation: The models were evaluated using metrics such as Root Mean Square Error, Mean Absolute Error & R-squared.</li>
 </ol>
 

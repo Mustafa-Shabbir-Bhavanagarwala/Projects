@@ -4,7 +4,7 @@
 
 ## Overview
 <p>
-This project involves analysis and prediction of youth drug usage factors such as  alcohol age of first use, marijuana ever used, and number of days of cigarettes in past month by a person. The methods finally chosen for the analysis & prediction are Decision trees, Bagging and Random Forest. The dataset involved in this project is collected from National Survey on Drug Use and Health. From the findings it is clear that ‘what grade in now/will be in’ forms a very important 
+This project involves analysis and prediction of youth drug usage factors such as  alcohol age of first use, marijuana ever used, and number of days of cigarettes in past month by a person. The methods finalised for the analysis & prediction are Decision trees, Bagging and Random Forest. The dataset involved in this project is collected from National Survey on Drug Use and Health. From the findings it is clear that ‘what grade in now/will be in’ forms a very important 
 predictor to predict ‘alcohol age of first use’. Similarly ‘first used alcohol prior to age 18’
 forms a very important predictor to predict ‘marijuana ever used’. Similarly ‘any 
 tobacco ever used’ forms a very important predictor to predict ‘number of days of 

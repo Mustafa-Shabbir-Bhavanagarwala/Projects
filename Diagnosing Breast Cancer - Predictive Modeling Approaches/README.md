@@ -10,7 +10,7 @@
 
 ## Approach
 
-<p>This data preprocessing in this project involves checking and removal of the duplicate rows followed by cleaning the column names. Later the data is split into train and test sets. Next the numerical predictor variables in the training and testing sets are scaled to have a mean of 0 and a standard deviation of 1. The two models decided for implementation are logistic regression and XG Boost. An XGB Classifier model is initialized, and a Randomized Search CV is used to find the best hyperparameters, with a random sampling of parameters like learning_rate, max_depth, and subsample. The search is performed using 5-fold cross-validation. Once the best parameters are found, the model is trained on the training data. The metrics used for evaluation are Accuracy, Precision, Recall & F1 score.</p>
+<p>This data preprocessing in this project involves checking and removal of the duplicate rows followed by cleaning the column names. Later the data is split into train and test sets. Next the numerical predictor variables in the training and testing sets are scaled to have a mean of 0 and a standard deviation of 1. The two models finalized for implementation are logistic regression and XG Boost. An XGB Classifier model is initialized, and a Randomized Search CV is used to find the best hyperparameters, with a random sampling of parameters like learning_rate, max_depth, and subsample. The search is performed using 5-fold cross-validation. Once the best parameters are found, the model is trained on the training data. The metrics used for evaluation are Accuracy, Precision, Recall & F1 score.</p>
 
 ## Results:
 <ul>
