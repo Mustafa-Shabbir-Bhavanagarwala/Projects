@@ -3,7 +3,7 @@
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 
 ## Abstract
-<p>In this project, rainfall for the next day is predicted with a focus on achieving the best accuracy using Machine Learning. Historical weather data which include factors like temperature, evaporation, sunshine, and pressure is used to build the model for the predictions. XGB Classifier is the machine learning model decided upon for solving the problem after studying several models. The predictions aim to provide reliable forecasts to assist in agricultural planning and weather-related decision-making.</p>
+<p>In this project, rainfall for the next day is predicted with a focus on achieving the best accuracy using Machine Learning. Historical weather data which include factors like temperature, evaporation, sunshine, and pressure is used to build the model for the predictions. XGB Classifier is the machine learning model decided upon for solving the problem. The predictions aim to provide reliable forecasts to assist in agricultural planning and weather-related decision-making.</p>
 
 ## Introduction
 <p>This study focuses on machine learning techniques to predict if it will rain tomorrow based on a number of factors like temperature, wind, humidity, and temperature at different times of day. The project uses the rain dataset, which contains significant features about the weather like Max Temp, Wind Gust Speed, and measures of these factors at different times of the day.</p>
