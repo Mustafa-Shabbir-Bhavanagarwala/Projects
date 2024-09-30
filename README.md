@@ -12,10 +12,10 @@
 <p>
 <li><h3> 
 
-Advanced Analysis, Prediction of Malicious URLs &nbsp;&nbsp;&nbsp; 📁 [Folder](./Adv.%20Analysis,%20Prediction%20of%20Malicious%20URLs/)
+Advanced Analysis, Prediction of Malicious URLs</h3> &nbsp;&nbsp;&nbsp; 📁 [Folder](./Adv.%20Analysis,%20Prediction%20of%20Malicious%20URLs/)
 
 
-</h3></li>
+</li>
 <ul>
 <li><i>Objective:</i> To investigate if the characteristics of uniform resource locators (URLs) can distinguish legitimate websites from phishing websites, and if the features can be used to predict if a URL is for a phishing website quickly </li>
 <li><i>Techniques:</i> Principal Component Analysis, K-means, Hierarchical Clustering, Logistic Regression, Decision Trees, Random Forest, Boosting, Support Vector Machine</li>
