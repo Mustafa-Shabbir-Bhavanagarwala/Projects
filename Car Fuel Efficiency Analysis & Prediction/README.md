@@ -6,7 +6,7 @@
 <p>This project focuses on determining the relationship between the car’s engine performance metrics with its fuel efficiency measured in the miles per gallon. The above project can be applied to automotive fuel efficiency predictions, helping manufacturers optimize engine performance and meet emissions standards. Additionally, it can assist consumers in choosing vehicles based on fuel economy, supporting environmental sustainability and cost savings.</p>
 
 ## Introduction
-<p>The project uses the cars dataset which includes features like 'Name', 'Miles_per_Gallon', 'Displacement', 'Horsepower',  and 'Origin'. Several ML models are implemented in this project to study the relationship between the car’s engine performance metrics and its fuel efficiency. Alternate regression models are also implemented. A customized best subset selection function is also implemented with the aim of improving the results.</p>
+<p>The project uses the cars dataset which includes features like 'Name', 'Miles_per_Gallon', 'Displacement', 'Horsepower',  and 'Origin'. The project is implemented using Python. Several ML models are implemented in this project to study the relationship between the car’s engine performance metrics and its fuel efficiency. Alternate regression models are also implemented. A customized best subset selection function is also implemented with the aim of improving the results.</p>
 
 ## Methods used
 <ol>
