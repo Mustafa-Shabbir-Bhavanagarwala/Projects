@@ -10,9 +10,9 @@
 
 <ul>
 <li><h3>Advanced Analysis, Prediction of Malicious URLs</h3></li>
-<strong>Objective:</strong> To investigate if the characteristics of uniform resource locators (URLs) can distinguish legitimate websites from phishing websites, and if the features can be used to predict if a URL is for a phishing website quickly 
-<b>Techniques:</b> Principal Component Analysis, K-means, Hierarchical Clustering, Logistic Regression, Decision Trees, Random Forest, Boosting, Support Vector Machine
-<b>Tools:</b> Python: Sklearn, Seaborn, Scipy, Xgboost
+<i>Objective:</i> To investigate if the characteristics of uniform resource locators (URLs) can distinguish legitimate websites from phishing websites, and if the features can be used to predict if a URL is for a phishing website quickly 
+<i>Techniques:</i> Principal Component Analysis, K-means, Hierarchical Clustering, Logistic Regression, Decision Trees, Random Forest, Boosting, Support Vector Machine
+<i>Tools:</i> Python: Sklearn, Seaborn, Scipy, Xgboost
 
 <li><h3>Intelligent Agent - For Autonomous Cleaning, Exploration & Hazard Detection</h3></li>
 <b>Objective:</b> This project is based upon Artificial Intelligence, involving developing, testing and evaluating agents' performance for autonomous tasks such as to clean dirt,  to travel to a place and get back home with what is present at that place, & to bust an invisible object autonomously and accurately based on pure probabilities.
