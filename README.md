@@ -7,12 +7,12 @@ Scripting Language: Linux
 
 1. Advanced Analysis, Prediction of Malicious URLs
 Objective: To investigate if the characteristics of uniform resource locators (URLs) can distinguish legitimate websites from phishing websites, and if the features can be used to predict if a URL is for a phishing website quickly 
-Techniques: Classification, Feature Engineering, Random Forest, Logistic Regression.
-Tools: Python, Scikit-learn, Pandas, NumPy.
+Techniques: Principal Component Analysis, K-means, Hierarchical Clustering, Logistic Regression, Decision Trees, Random Forest, Boosting, Support Vector Machine
+Tools: Python: Scikit-learn, Seaborn, Scipy, Xgboost
 2. Car Fuel Efficiency Analysis & Prediction
 Objective: This project focuses on determining the relationship between the car’s engine performance metrics with its fuel efficiency measured in the miles per gallon. 
-Techniques: Regression, Data Preprocessing, Feature Engineering.
-Tools: Python, Scikit-learn, Matplotlib, Pandas.
+Techniques: Multiple linear regression, Random forest, Quadratic Regression model, Best subset selection
+Tools: Python: Scikit-learn, Seaborn, Missingno, Patsy, 
 3. Costco Inventory Management System
 Objective: The project aims to deliver an inventory management system that involves implementing a robust database thereby ensuring seamless management of the vast inventory, ensuring accuracy, and real-time insights which would enhance the overall supply chain, reduce costs, and elevate the customer experience. 
 Techniques: Supply Chain Optimization, Database Management, Simulation.
