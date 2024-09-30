@@ -10,7 +10,7 @@
 
 <ul>
 <li><h3>Advanced Analysis, Prediction of Malicious URLs</h3></li>
-<b>Objective:</b> To investigate if the characteristics of uniform resource locators (URLs) can distinguish legitimate websites from phishing websites, and if the features can be used to predict if a URL is for a phishing website quickly 
+<strong>Objective:</strong> To investigate if the characteristics of uniform resource locators (URLs) can distinguish legitimate websites from phishing websites, and if the features can be used to predict if a URL is for a phishing website quickly 
 <b>Techniques:</b> Principal Component Analysis, K-means, Hierarchical Clustering, Logistic Regression, Decision Trees, Random Forest, Boosting, Support Vector Machine
 <b>Tools:</b> Python: Sklearn, Seaborn, Scipy, Xgboost
 
