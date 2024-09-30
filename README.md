@@ -12,7 +12,7 @@
 <p>
 <li><h3> 
 
-[Advanced Analysis, Prediction of Malicious URLs]("Adv. Analysis, Prediction of Malicious URLs") 
+[Advanced Analysis, Prediction of Malicious URLs](./Adv.%20Analysis,%20Prediction%20of%20Malicious%20URLs/) 
 
 </h3></li>
 <ul>
