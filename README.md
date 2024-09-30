@@ -11,8 +11,9 @@
 <ul>
 <p>
 <li><h3> 
+<a href="./Adv. Analysis, Prediction of Malicious URLs/" style="color: blue; text-decoration: underline;">Advanced Analysis, Prediction of Malicious URLs 🔗</a>
 
-Advanced Analysis, Prediction of Malicious URLs</h3> &nbsp;&nbsp;&nbsp; 📁 [Folder](./Adv.%20Analysis,%20Prediction%20of%20Malicious%20URLs/)
+
 
 
 </li>
