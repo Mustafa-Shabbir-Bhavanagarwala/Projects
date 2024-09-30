@@ -11,7 +11,11 @@
 <ul>
 <p>
 <li><h3> 
-<a href="./Adv. Analysis, Prediction of Malicious URLs/" style="color: blue; text-decoration: underline;">Advanced Analysis, Prediction of Malicious URLs 🔗</a>
+
+
+
+
+<a href="./Adv. Analysis, Prediction of Malicious URLs/" ><u>Advanced Analysis, Prediction of Malicious URLs</u> 🔗</a></h3>
 
 
 
