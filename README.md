@@ -78,7 +78,7 @@
 <a href="./United Airlines Advanced Analysis Based On departure delays & Gain Per Flight/" >United Airlines Advanced Analysis Based on Departure Delays & Gain Per Flight 🔗</a>
 </h3></li>
 <ul>
-<li><i>Objective:</i> The relationship between departure delays and variables like time of day, time of year, temperature, wind speed, precipitation, and visibility of the United Airlines flight data are investigated using graphical analysis and permutation tests. Further on, net gain per flight, that is, how much quicker the flight ended up being than planned is examined, considering factors such as flight duration and late departures. </li>
+<li><i>Objective:</i> The relationship between departure delays and variables like time of day, temperature, precipitation, and visibility of the United Airlines flight data are investigated using graphical analysis and permutation tests. Further on, net gain per flight, that is, how much quicker the flight ended up being than planned is examined, considering factors such as flight duration and late departures. </li>
 <li><i>Techniques:</i> Hypothesis Testing, Data Analysis, Data Wrangling,  Statistical Analysis: T-tests, Confidence intervals</li>
 <li><i>Tools:</i> R</li>
 </ul>
