@@ -44,7 +44,7 @@
 <a href="./Seattle Songscope - Predicting Bird Sounds/" >Seattle Songscope: Predicting Bird Sounds 🔗</a>
 </h3></li>
 <ul>
-<li><i>Objective:</i> To classify bird sounds from various bird species found in the Seattle area.</li>
+<li><i>Objective:</i> To identify bird sounds from various bird species found in the Seattle area.</li>
 <li><i>Techniques:</i> Audio Classification, Convolutional Neural Networks (CNNs), Binary classification, Multi class classification</li>
 <li><i>Tools:</i> Python: Tensorflow, Keras, Scipy, Sklearn, Seaborn</li>
 </ul>
