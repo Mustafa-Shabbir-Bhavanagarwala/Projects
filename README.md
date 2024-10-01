@@ -53,8 +53,8 @@
 <p>
 <li>
 <h3>
-<a href="./Seattle Songscope - Predicting Bird Sounds/" >Seattle Songscope - Predicting Bird Sounds 🔗</a>
-Car Fuel Efficiency Analysis & Prediction</h3></li>
+<a href="./Car Fuel Efficiency Analysis & Prediction/" >Car Fuel Efficiency Analysis & Prediction 🔗</a>
+</h3></li>
 <ul>
 <li><i>Objective:</i> This project focuses on determining the relationship between the car’s engine performance metrics with its fuel efficiency measured in the miles per gallon. </li>
 <li><i>Techniques:</i> Multiple linear regression, Random forest, Quadratic Regression model, Best subset selection</li>
@@ -64,8 +64,8 @@ Car Fuel Efficiency Analysis & Prediction</h3></li>
 
 <p>
 <li><h3>
-<a href="./Seattle Songscope - Predicting Bird Sounds/" >Seattle Songscope - Predicting Bird Sounds 🔗</a>
-TF-IDF Driven Document Search Engine - SmartSearch</h3></li>
+<a href="./TF-IDF Driven Document Search Engine - SmartSearch/" >TF-IDF Driven Document Search Engine - SmartSearch 🔗</a>
+</h3></li>
 <ul>
 <li><i>Objective:</i> In this project, a search application is built that uses TF-IDF to compute the “relevance” of a document to a search query and it displays the most relevant documents. The project also implements TF-IDF calculations using Spark RDDs and Spark DataFrames. </li>
 <li><i>Techniques:</i> TF-IDF computation, Search Ranking, Hadoop Streaming</li>
@@ -75,8 +75,8 @@ TF-IDF Driven Document Search Engine - SmartSearch</h3></li>
 
 <p>
 <li><h3>
-<a href="./Seattle Songscope - Predicting Bird Sounds/" >Seattle Songscope - Predicting Bird Sounds 🔗</a>
-United Airlines Advanced Analysis Based on Departure Delays & Gain Per Flight</h3></li>
+<a href="./United Airlines Advanced Analysis Based On departure delays & Gain Per Flight/" >United Airlines Advanced Analysis Based on Departure Delays & Gain Per Flight 🔗</a>
+</h3></li>
 <ul>
 <li><i>Objective:</i> The relationship between departure delays and variables like time of day, time of year, temperature, wind speed, precipitation, and visibility of the United Airlines flight data are investigated using graphical analysis and permutation tests. Further on, net gain per flight, that is, how much quicker the flight ended up being than planned is examined, considering factors such as flight duration and late departures. </li>
 <li><i>Techniques:</i> Hypothesis Testing, Data Analysis, Data Wrangling,  Statistical Analysis: T-tests, Confidence intervals</li>
@@ -86,8 +86,8 @@ United Airlines Advanced Analysis Based on Departure Delays & Gain Per Flight</h
 
 <p>
 <li><h3>
-<a href="./Seattle Songscope - Predicting Bird Sounds/" >Seattle Songscope - Predicting Bird Sounds 🔗</a>
-U.S. Drug Use - Analysis, Inference & Prediction</h3></li>
+<a href="./U.S. Drug Use - Analysis, Inference & Prediction/" >U.S. Drug Use - Analysis, Inference & Prediction 🔗</a>
+</h3></li>
 <ul>
 <li><i>Objective:</i> This project involves investigation of youth drug usage factors such as alcohol age of first use, marijuana ever used, and number of days of cigarettes in past month by a person. </li>
 <li><i>Techniques:</i> Decision Tree, Bagging, Random Forest, Classification, Data Visualization</li>
