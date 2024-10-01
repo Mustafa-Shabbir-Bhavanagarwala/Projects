@@ -15,7 +15,7 @@
 
 
 
-<a href="./Adv. Analysis, Prediction of Malicious URLs/" >PhishGuard: Advanced Analysis & Prediction of Malicious URLs 🔗</a></h3>
+<a href="./Resolving Phishing Attacks Using URL Adv. Analysis/" >PhishGuard: Resolving Phishing Attacks Using Advanced Analysis of URLs 🔗</a></h3>
 
 
 
@@ -41,7 +41,7 @@
 
 <p>
 <li><h3>
-<a href="./Seattle Songscope - Predicting Bird Sounds/" >Seattle Songscope: Predicting Bird Sounds 🔗</a>
+<a href="./Seattle Songscope - Identifying Bird Sounds/" >Seattle Songscope: Identifying Bird Sounds 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> To identify bird sounds from various bird species found in the Seattle area.</li>
@@ -53,7 +53,7 @@
 <p>
 <li>
 <h3>
-<a href="./Car Fuel Efficiency Analysis & Prediction/" >Car Fuel Efficiency Analysis & Prediction 🔗</a>
+<a href="./Optimizing Car Fuel Efficiency Through Engine Metrics Analysis & Modeling/" >Optimizing Car Fuel Efficiency Through Engine Metrics Analysis & Modeling 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project focuses on determining the relationship between the car’s engine performance metrics with its fuel efficiency measured in the miles per gallon. </li>
@@ -86,7 +86,7 @@
 
 <p>
 <li><h3>
-<a href="./U.S. Drug Use - Analysis, Inference & Prediction/" >Analysis, Inference,& Predictive modeling of Drug use by the public of United States 🔗</a>
+<a href="./Unveiling Patterns & Mitigating U.S. Youth Drug Use through Analysis, Inference & Modeling/" >Unveiling Patterns & Mitigating U.S. Youth Drug Use through Analysis, Inference & Modeling 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project involves investigation of youth drug usage factors such as alcohol age of first use, marijuana ever used, and number of days of cigarettes in past month by a person. </li>
@@ -97,8 +97,8 @@
 
 <p>
 <li><h3>
-<a href="./WA, US Homeownership vs. Renting Trends - Anal. & Pred/" >The Occupancy Equation: Analyzing & Predicting Homeownership vs. Renting Patterns in the 
-Washington State, US 🔗</a>
+<a href="./Dwelling Occupancy Status in WA, US - Analyses & Study/" >The Occupancy Equation: Analyses & Study of Dwelling Occupancy Status in the Washington State, 
+US  🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> In this project the Homeownership vs. Renting Patterns in the Washington state is studied based on various factors related to individuals and housing such as age, income, housing cost, and population density.</li>
@@ -131,8 +131,8 @@ Washington State, US 🔗</a>
 
 <p>
 <li><h3>
-<a href="./U.S. Heart Disease & Stroke Mortality - Anal. & Pred/" >Analysis & Predictive Modelling for Heart Disease and Stroke Mortality Rates Among U.S. Adults 
-Aged 35+ 🔗</a>
+<a href="./U.S. Heart Disease & Stroke Mortality - Addressing Issues/" >Addressing Issues Related to Heart Disease and Stroke Mortality Rates Among U.S. Adults Aged 
+35+ 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project involves analyzing and understanding the variations in heart disease and stroke mortality data among US adults based on factors such as Year, Type of Heart Disease, Age, Gender, Race/Ethnicity. </li>
