@@ -15,7 +15,7 @@
 
 
 
-<a href="./Adv. Analysis, Prediction of Malicious URLs/" >Advanced Analysis, Prediction of Malicious URLs 🔗</a></h3>
+<a href="./Adv. Analysis, Prediction of Malicious URLs/" >PhishGuard: Advanced Analysis & Prediction of Malicious URLs 🔗</a></h3>
 
 
 
@@ -30,7 +30,7 @@
 
 <p>
 <li><h3>
-<a href="./Intelligent Agent - For Autonomous Cleaning, Exploration & Hazard Detection/" >Intelligent Agent - For Autonomous Cleaning, Exploration & Hazard Detection 🔗</a>
+<a href="./Intelligent Agent - For Autonomous Cleaning, Exploration & Hazard Detection/" >Intelligent Agent: For Autonomous Cleaning, Exploration & Hazard Detection 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project is based upon Artificial Intelligence, involving developing, testing and evaluating agents' performance for autonomous tasks such as to clean dirt,  to travel to a place and get back home with what is present at that place, & to bust an invisible object autonomously and accurately based on pure probabilities.</li>
@@ -41,7 +41,7 @@
 
 <p>
 <li><h3>
-<a href="./Seattle Songscope - Predicting Bird Sounds/" >Seattle Songscope - Predicting Bird Sounds 🔗</a>
+<a href="./Seattle Songscope - Predicting Bird Sounds/" >Seattle Songscope: Predicting Bird Sounds 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> To classify bird sounds from various bird species found in the Seattle area.</li>
@@ -64,7 +64,7 @@
 
 <p>
 <li><h3>
-<a href="./TF-IDF Driven Document Search Engine - SmartSearch/" >TF-IDF Driven Document Search Engine - SmartSearch 🔗</a>
+<a href="./TF-IDF Driven Document Search Engine - SmartSearch/" >SmartSearch: TF-IDF Driven Document Search Engine 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> In this project, a search application is built that uses TF-IDF to compute the “relevance” of a document to a search query and it displays the most relevant documents. The project also implements TF-IDF calculations using Spark RDDs and Spark DataFrames. </li>
@@ -86,7 +86,7 @@
 
 <p>
 <li><h3>
-<a href="./U.S. Drug Use - Analysis, Inference & Prediction/" >U.S. Drug Use - Analysis, Inference & Prediction 🔗</a>
+<a href="./U.S. Drug Use - Analysis, Inference & Prediction/" >Analysis, Inference,& Predictive modeling of Drug use by the public of United States 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project involves investigation of youth drug usage factors such as alcohol age of first use, marijuana ever used, and number of days of cigarettes in past month by a person. </li>
@@ -97,7 +97,8 @@
 
 <p>
 <li><h3>
-<a href="./WA, US Homeownership vs. Renting Trends - Anal. & Pred/" >WA, U.S. Homeownership vs. Renting Trends - Analysis & Prediction 🔗</a>
+<a href="./WA, US Homeownership vs. Renting Trends - Anal. & Pred/" >The Occupancy Equation: Analyzing & Predicting Homeownership vs. Renting Patterns in the 
+Washington State, US 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> In this project the Homeownership vs. Renting Patterns in the Washington state is studied based on various factors related to individuals and housing such as age, income, housing cost, and population density.</li>
@@ -130,7 +131,8 @@
 
 <p>
 <li><h3>
-<a href="./U.S. Heart Disease & Stroke Mortality - Anal. & Pred/" >U.S. Heart Disease & Stroke Mortality - Analysis & Prediction 🔗</a>
+<a href="./U.S. Heart Disease & Stroke Mortality - Anal. & Pred/" >Analysis & Predictive Modelling for Heart Disease and Stroke Mortality Rates Among U.S. Adults 
+Aged 35+ 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project involves analyzing and understanding the variations in heart disease and stroke mortality data among US adults based on factors such as Year, Type of Heart Disease, Age, Gender, Race/Ethnicity. </li>
@@ -141,7 +143,7 @@
 
 <p>
 <li><h3>
-<a href=".//Socioeconomic Factors and ACT Scores - Data Driven Analysis & Prediction/" >Socioeconomic Factors and ACT Scores - Data-Driven Analysis & Prediction 🔗</a>
+<a href=".//Socioeconomic Factors and ACT Scores - Data Driven Analysis & Prediction/" >Socioeconomic Factors and ACT Scores: Data-Driven Analysis & Prediction 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project is based on the study of inequality of educational opportunity in U.S. high schools. Here the focus is on average student performance on the ACT or SAT exams that students take as part of the college application process. </li>
@@ -152,7 +154,7 @@
 
 <p>
 <li><h3>
-<a href=".//Weighing CO2 Emission Trends - Adv. Analysis/" >Weighing CO2 Emission Trends - Advanced Analysis 🔗</a>
+<a href=".//Weighing CO2 Emission Trends - Adv. Analysis/" >Weighing CO2 Emission Trends: An Advanced Analysis 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project is based on the CO2 and Greenhouse Gas Emissions dataset, which is used to analyze CO2 emissions trends over the years 1970 to 2020 for the top 10 CO2 emitter countries in the year 2020. </li>
@@ -163,7 +165,7 @@
 
 <p>
 <li><h3>
-<a href="./Diagnosing Breast Cancer - Predictive Modeling Approaches/" >Diagnosing Breast Cancer - Predictive Modeling Approaches 🔗</a>
+<a href="./Diagnosing Breast Cancer - Predictive Modeling Approaches/" >Diagnosing Breast Cancer: Predictive Modeling Approaches 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project is based on the study of the breast cancer data which involves physical characteristics of the tumor with each being one of the geometric, textural, or statistical descriptors, derived from digitized images of fine needle aspirates (FNA) of breast masses. </li>
@@ -174,7 +176,7 @@
 
 <p>
 <li><h3>
-<a href="./Weather Insights - Analysis & Predictive Modeling for Rain/" >Weather Insights - Analysis & Predictive Modeling for Rain 🔗</a>
+<a href="./Weather Insights - Analysis & Predictive Modeling for Rain/" >Weather Insights: Analysis & Predictive Modeling for Rain 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> In this project, rainfall for the next day is predicted with a focus on achieving the best accuracy using Machine Learning. Historical weather data which include factors like temperature, evaporation, sunshine, and pressure is used to build the model for the predictions.</li>
