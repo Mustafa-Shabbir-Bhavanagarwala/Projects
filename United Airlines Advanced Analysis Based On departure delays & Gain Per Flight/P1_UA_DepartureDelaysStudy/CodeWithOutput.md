@@ -1,7 +1,5 @@
 # United Airines(UA) Advanced Analysis Based On departure delays
 
-2024-10-04
-
 ``` r
 library(tidyverse)
 ```
