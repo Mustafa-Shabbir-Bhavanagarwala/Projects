@@ -4,8 +4,6 @@
 
 <p>This repository contains projects based on Data Science, Machine Learning, Data Analysis, Big Data, Artificial Intelligence and Database Development & Data Management. The projects use various machine learning techniques, including classification, regression, clustering, time series forecasting, and natural language processing. The projects aim to solve real-world problems, providing insights and predictive capabilities. The projects deal with Data Collection, Data Preprocessing, Data Analysis, Model building and implementation, Model Evaluation, Model selection, Model Optimization, Producing accurate results.</p>
 
-<span style="color:aqua">This 66text will be aqua blue.</span>
-<span style="color:#00FFFF">This 99text will be aqua blue.</span>
 
 ## Projects List
 <p>Each folder in this repository represents a project. Below is a summary of each project and the methodologies applied.</p>
@@ -32,7 +30,7 @@
 
 <p>
 <li><h3>
-<span style="color:aqua"><a href="./Intelligent Agent - For Autonomous Cleaning, Exploration & Hazard Detection/" >Intelligent Agent: For Autonomous Cleaning, Exploration & Hazard Detection 🔗</a></span>
+<a href="./Intelligent Agent - For Autonomous Cleaning, Exploration & Hazard Detection/" >Intelligent Agent: For Autonomous Cleaning, Exploration & Hazard Detection 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project is based upon Artificial Intelligence, involving developing, testing and evaluating agents' performance for autonomous tasks such as to clean dirt,  to travel to a place and get back home with what is present at that place, & to bust an invisible object autonomously and accurately based on pure probabilities.</li>
