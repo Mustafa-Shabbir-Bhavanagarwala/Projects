@@ -4,6 +4,8 @@
 
 <p>This repository contains projects based on Data Science, Machine Learning, Data Analysis, Big Data, Artificial Intelligence and Database Development & Data Management. The projects use various machine learning techniques, including classification, regression, clustering, time series forecasting, and natural language processing. The projects aim to solve real-world problems, providing insights and predictive capabilities. The projects deal with Data Collection, Data Preprocessing, Data Analysis, Model building and implementation, Model Evaluation, Model selection, Model Optimization, Producing accurate results.</p>
 
+<span style="color:aqua">This 66text will be aqua blue.</span>
+<span style="color:#00FFFF">This 99text will be aqua blue.</span>
 
 ## Projects List
 <p>Each folder in this repository represents a project. Below is a summary of each project and the methodologies applied.</p>
