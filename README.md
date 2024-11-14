@@ -30,7 +30,7 @@
 
 <p>
 <li><h3>
-<a href="./Intelligent Agent - For Autonomous Cleaning, Exploration & Hazard Detection/" >Intelligent Agent: For Autonomous Cleaning, Exploration & Hazard Detection 🔗</a>
+<span style="color:aqua"><a href="./Intelligent Agent - For Autonomous Cleaning, Exploration & Hazard Detection/" >Intelligent Agent: For Autonomous Cleaning, Exploration & Hazard Detection 🔗</a></span>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This project is based upon Artificial Intelligence, involving developing, testing and evaluating agents' performance for autonomous tasks such as to clean dirt,  to travel to a place and get back home with what is present at that place, & to bust an invisible object autonomously and accurately based on pure probabilities.</li>
@@ -176,6 +176,18 @@ US  🔗</a>
 
 <p>
 <li><h3>
+<a href="./Wide-Scope Advanced Data Analysis & Statistical Visualization in Excel/" >Wide-Scope Advanced Data Analysis & Statistical Visualization in Excel 🔗</a>
+</h3></li>
+<ul>
+<li><i>Objective:</i> This section involves analysing several datasets, where each of the tasks are analysed using Excel, involving fundamentals from the Statistics(Descriptive,Inferential) and Data Analysis domain </li>
+<li><i>Techniques:</i>Hypothesis Testing, Visualizations using graphs, Correlation and covariance, Confidence intervals, Regression analysis, Measures of central tendency, asymmetry, and variability</li>
+<li><i>Tools:</i>Excel</li>
+</ul>
+</p>
+
+
+<p>
+<li><h3>
 <a href="./Weather Insights - Analysis & Predictive Modeling for Rain/" >Weather Insights: Analysis & Predictive Modeling for Rain 🔗</a>
 </h3></li>
 <ul>
@@ -191,7 +203,7 @@ US  🔗</a>
 <p> Below is a summary of the technologies used in various projects in the repository</p>
 <ul>
 <li><b>Programming Languages:</b> Python (libraries such as NLTK, SciKit-Learn, Seaborn, Tensorflow, PyTorch, SciPy, Plotly, Missingno & packages like Statsmodels), R, SQL</li>
-<li><b>Big data analytics tools:</b> Apache Spark, AWS:EMR, Hadoop Streaming, pipelines, Sqoop, Avro, DynamoDB</li>
+<li><b>Big data tools:</b> Apache Spark, AWS:EMR, Hadoop Streaming, pipelines, Sqoop, Avro, DynamoDB</li>
 <li><b>Business analytics tools:</b> Tableau, Excel</li>
 <li><b>Scripting Language:</b> Linux </li>
 </ul>
