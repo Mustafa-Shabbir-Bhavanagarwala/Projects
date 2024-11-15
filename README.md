@@ -176,7 +176,7 @@ US  🔗</a>
 
 <p>
 <li><h3>
-<a href="./Wide-Scope Advanced Data Analysis of Organizational & Real Estate data/" >	Wide-Scope Advanced Data Analysis of Organizational & Real Estate data 🔗</a>
+<a href="./Wide-Scope Advanced Data Analysis of Organizational & Real Estate data/" >Wide-Scope Advanced Data Analysis of Organizational & Real Estate data 🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This section involves analysing several datasets, where each of the tasks are analysed using Excel, involving fundamentals from the Statistics(Descriptive,Inferential) and Data Analysis domain </li>
