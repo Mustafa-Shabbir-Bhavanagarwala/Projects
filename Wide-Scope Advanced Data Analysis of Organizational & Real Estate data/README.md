@@ -1,4 +1,4 @@
-<h1 align="center">Wide-Scope Advanced Data Analysis & Statistical Visualization in Excel</h1>
+<h1 align="center">	Wide-Scope Advanced Data Analysis of Organizational & Real Estate data</h1>
 
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 
