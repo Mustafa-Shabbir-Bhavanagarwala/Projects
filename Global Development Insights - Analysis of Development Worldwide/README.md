@@ -14,7 +14,7 @@ This project aims to analyze and uncover the global development trends, aiming t
 <li>Economic Trends: Global decline in agriculture(% GDP), while government spending on education and health shows varied national priorities. Tourism expenditure is growing, highlighting its increasing contribution to economies like India, Kenya & China</li>
 <li>Health & Well-being: Mortality rates decrease with higher health and education expenditure, indicating importance of education & healthcare investments</li>
 <li>Geopolitical Priorities: Variation in trends of Armed forces reflect defense priorities, modernization, and geopolitical strategies</li>
-<ul>
+</ul>
 
 <p>The technology used to develop the project is R. The analysis through this project bridges data and actionable knowledge, empowering decision-makers, researchers, and international organizations to tackle inequalities, foster sustainable growth, and shape a resilient global future. This project has significant applications such as:</p>
 <ul>
@@ -26,5 +26,5 @@ This project aims to analyze and uncover the global development trends, aiming t
 <li>Energy Equity: Targets nations lagging in electricity access to accelerate renewable energy initiatives</li>
 <li>Sustainable Development Goals: Aligns insights with SDGs to promote health, education, and economic growth globally</li>
 </ul>
-
+<br>
 More information regarding the project can be found here: [Report](FinalReport.pdf)
