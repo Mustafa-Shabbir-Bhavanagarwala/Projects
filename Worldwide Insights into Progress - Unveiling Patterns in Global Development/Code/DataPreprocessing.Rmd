@@ -1,0 +1,124 @@
+---
+title: "Data Wrangling"
+output: md_document
+date: ""
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+library(readxl)
+library(imputeTS)
+library(plotly)
+library(Hmisc)
+library(dplyr)
+library(labelled)
+library(zoo)
+library(VIM)
+```
+
+```{r}
+# Read in raw data
+rawData <- read_csv("data.csv")
+```
+
+```{r}
+# Clean
+clean <- rawData %>% 
+  select(-`Country Code`, -`Series Code`) %>% 
+  mutate(across(everything(), ~as.character(.))) %>% 
+  distinct(`Country Name`, `Series Name`, .keep_all = T) %>% 
+  pivot_longer(cols = starts_with("20"),
+               names_to = "Year") %>% 
+  pivot_wider(names_from = "Series Name", values_from = "value") %>% 
+  filter(!is.na(`Country Name`) & !(`Country Name` %in% c("Data from database: World Development Indicators", "Last Updated: 11/13/2024"))) %>% 
+  select(-`NA`)
+
+# Clean names
+clean_names <- clean %>% 
+  rename(country_name = `Country Name`,
+         year = Year,
+         elec_access = `Access to electricity (% of population)`,
+         agri_land = `Agricultural land (% of land area)`,
+         agri_forest_fish = `Agriculture, forestry, and fishing, value added (% of GDP)`,
+         arable_land = `Arable land (% of land area)`,
+         armed_forces_perc = `Armed forces personnel (% of total labor force)`,
+         armed_forces_total = `Armed forces personnel, total`,
+         birth_rate = `Birth rate, crude (per 1,000 people)`,
+         educ_expend = `Government expenditure on education, total (% of GDP)`,
+         tourism = `International tourism, expenditures (current US$)`,
+         mortality = `Mortality rate, infant (per 1,000 live births)`,
+         pop = `Population, total`,
+         health_expend = `Current health expenditure (% of GDP)`,
+         gdp_usd = `GDP (current US$)`,
+         gdp_perc = `GDP per capita growth (annual %)`,
+         income = `Adjusted net national income (current US$)`) %>% 
+  mutate(across(-c(country_name, year), as.numeric))
+
+```
+```{r}
+# Imputation dataframe
+data <- clean_names
+
+```
+
+```{r}
+cols_to_numeric <- c("elec_access", "agri_land", "agri_forest_fish", "arable_land",
+                     "armed_forces_perc", "armed_forces_total", "birth_rate",
+                     "educ_expend", "tourism", "mortality", "pop", "gdp_usd",
+                     "gdp_perc", "health_expend", "income")
+
+data[cols_to_numeric] <- lapply(data[cols_to_numeric], as.numeric)
+
+```
+
+
+```{r}
+data <- data %>%
+  mutate(year = as.integer(sub("\\[.*\\]", "", as.character(year))))
+
+```
+
+
+
+```{r}
+
+
+# Custom function to handle Kalman imputation with a fallback
+impute_kalman_fallback <- function(x) {
+  tryCatch({
+    if (sum(!is.na(x)) >= 3) {
+      na_kalman(x)  # Apply Kalman filter if there are enough points
+    } else {
+      na.locf(x, na.rm = FALSE)  # Fallback to forward fill if not enough points
+    }
+  }, error = function(e) {
+    na.locf(x, na.rm = FALSE)  # Fallback to forward fill on error
+  }, warning = function(w) {
+    na_interpolation(x)  # Use linear interpolation as fallback on warning
+  })
+}
+```
+```{r}
+# List of columns to impute (numeric columns)
+numeric_cols <- names(data)[sapply(data, is.numeric)]
+
+
+# Apply imputation with fallback for each numeric column grouped by 'country_name'
+data_imputed <- data %>%
+  group_by(country_name) %>%
+  mutate(across(all_of(numeric_cols), impute_kalman_fallback)) %>%
+  ungroup()
+
+# View the result
+head(data_imputed)
+#write.csv(data_imputed, file = "cleaned_data.csv")
+```
+
+
+
+
+
