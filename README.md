@@ -51,6 +51,40 @@
 </p>
 
 <p>
+<li><h3>
+<a href="./TF-IDF Driven Document Search Engine - SmartSearch/" >SmartSearch: TF-IDF Driven Document Search Engine 🔗</a>
+</h3></li>
+<ul>
+<li><i>Objective:</i> In this project, a search application is built that uses TF-IDF to compute the “relevance” of a document to a search query and it displays the most relevant documents. The project also implements TF-IDF calculations using Spark RDDs and Spark DataFrames. </li>
+<li><i>Techniques:</i> TF-IDF computation, Search Ranking, Hadoop Streaming</li>
+<li><i>Tools:</i> Apache Spark, Hadoop, AWS:EMR, DynamoDB, Python</li>
+</ul>
+</p>
+
+<p>
+<li><h3>
+<a href="./Global Development Insights - Analysis of Development Worldwide/" >Global Development Insights: Analysis of Development Worldwide 🔗</a>
+</h3></li>
+<ul>
+<li><i>Objective:</i> This analysis examines global development trends over recent years, focusing on economic, social, demographic, geopolitical, and environmental factors that impact the well-being of societies worldwide. </li>
+<li><i>Techniques:</i> Kalman Filter Imputation, Correlation analysis, Time series analysis, Clustering and Grouping, Impact Analysis, Cross-Sectoral Relationships</li>
+<li><i>Tools:</i> R: Tidyverse, ImputeTS, VIM, Hmisc</li>
+</ul>
+</p>
+
+<p>
+<li><h3>
+<a href="./Costco Inventory Management System/" >Costco Inventory Management System 🔗</a>
+</h3></li>
+<ul>
+<li><i>Objective:</i> The project aims to deliver an inventory management system that involves implementing a robust database thereby ensuring seamless management of the vast inventory, ensuring accuracy, and real-time insights which would enhance the overall supply chain, reduce costs, and elevate the customer experience. </li>
+<li><i>Techniques:</i> Database Design, forward engineering, SQL Queries generation, Stored Procedures, User Interface Design, Data Analysis</li>
+<li><i>Tools:</i> SQL, Python: Tinkter, tabulate </li>
+</ul>
+</p>
+
+
+<p>
 <li>
 <h3>
 <a href="./Optimizing Car Fuel Efficiency Through Engine Metrics Analysis & Modeling/" >Optimizing Car Fuel Efficiency Through Engine Metrics Analysis & Modeling 🔗</a>
@@ -62,16 +96,6 @@
 </ul>
 </p>
 
-<p>
-<li><h3>
-<a href="./TF-IDF Driven Document Search Engine - SmartSearch/" >SmartSearch: TF-IDF Driven Document Search Engine 🔗</a>
-</h3></li>
-<ul>
-<li><i>Objective:</i> In this project, a search application is built that uses TF-IDF to compute the “relevance” of a document to a search query and it displays the most relevant documents. The project also implements TF-IDF calculations using Spark RDDs and Spark DataFrames. </li>
-<li><i>Techniques:</i> TF-IDF computation, Search Ranking, Hadoop Streaming</li>
-<li><i>Tools:</i> Apache Spark, Hadoop, AWS:EMR, DynamoDB, Python</li>
-</ul>
-</p>
 
 <p>
 <li><h3>
@@ -95,6 +119,7 @@
 </ul>
 </p>
 
+
 <p>
 <li><h3>
 <a href="./Dwelling Occupancy Status in WA, US - Analyses & Study/" >The Occupancy Equation: Analyses & Study of Dwelling Occupancy Status in the Washington State, 
@@ -107,16 +132,7 @@ US  🔗</a>
 </ul>
 </p>
 
-<p>
-<li><h3>
-<a href="./Costco Inventory Management System/" >Costco Inventory Management System 🔗</a>
-</h3></li>
-<ul>
-<li><i>Objective:</i> The project aims to deliver an inventory management system that involves implementing a robust database thereby ensuring seamless management of the vast inventory, ensuring accuracy, and real-time insights which would enhance the overall supply chain, reduce costs, and elevate the customer experience. </li>
-<li><i>Techniques:</i> Database Design, forward engineering, SQL Queries generation, Stored Procedures, User Interface Design, Data Analysis</li>
-<li><i>Tools:</i> SQL, Python: Tinkter, tabulate </li>
-</ul>
-</p>
+
 
 <p>
 <li><h3>
