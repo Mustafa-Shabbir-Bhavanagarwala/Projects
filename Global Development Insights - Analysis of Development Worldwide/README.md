@@ -16,7 +16,7 @@ This project aims to analyze and uncover the global development trends, aiming t
 <li>Geopolitical Priorities: Variation in trends of Armed forces reflect defense priorities, modernization, and geopolitical strategies</li>
 </ul>
 
-<p>The technology used to develop the project is R. The analysis through this project bridges data and actionable knowledge, empowering decision-makers, researchers, and international organizations to tackle inequalities, foster sustainable growth, and shape a resilient global future. This project has significant applications such as:</p>
+<p>The technology used to develop the project is R. The analysis through this project bridges data and actionable knowledge, empowering decision-makers, researchers, and international organizations to address development gaps, foster sustainable growth, and shape a resilient global future. This project has significant applications such as:</p>
 <ul>
 
 <li>Policy Development: Helps allocate resources to health, education, and infrastructure in regions with gaps, like improving electricity access in Kenya</li>
