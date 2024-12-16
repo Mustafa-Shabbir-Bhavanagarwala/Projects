@@ -27,4 +27,5 @@ This project aims to analyze and uncover the global development trends, aiming t
 <li>Sustainable Development Goals: Aligns insights with SDGs to promote health, education, and economic growth globally</li>
 </ul>
 <br>
+
 More information regarding the project can be found here: [Report](FinalReport.pdf)
