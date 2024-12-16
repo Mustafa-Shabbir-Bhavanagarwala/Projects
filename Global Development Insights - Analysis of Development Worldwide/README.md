@@ -16,10 +16,15 @@ This project aims to analyze and uncover the global development trends, aiming t
 <li>Geopolitical Priorities: Variation in trends of Armed forces reflect defense priorities, modernization, and geopolitical strategies</li>
 <ul>
 
-<p>The technology used to develop the project is R. The project is used to enhance cybersecurity for companies, increase Email and Browser Security, Fraud Prevention, Secure Transactions & Brand Protection. With the help of the project, email softwares could potentially be enhanced 
-with features to notify a user if a link looks suspicious. So, if an account within the organization 
-gets compromised and starts sending phishing emails, instead of relying on the users’ skills to be 
-able to catch it, they would be assisted by this feature before clicking the link.</p>
+<p>The technology used to develop the project is R. The analysis through this project bridges data and actionable knowledge, empowering decision-makers, researchers, and international organizations to tackle inequalities, foster sustainable growth, and shape a resilient global future. This project has significant applications such as:</p>
+<ul>
 
+<li>Policy Development: Helps allocate resources to health, education, and infrastructure in regions with gaps, like improving electricity access in Kenya</li>
+<li>Health Outcomes: Guides healthcare investments to reduce mortality rates, benefiting countries like Nigeria</li>
+<li>Economic Growth: Supports sustainable land use and economic diversification in sectors like agriculture, tourism, and forestry</li>
+<li>Education Investments: Demonstrates the impact of education spending on societal progress and workforce development</li>
+<li>Energy Equity: Targets nations lagging in electricity access to accelerate renewable energy initiatives</li>
+<li>Sustainable Development Goals: Aligns insights with SDGs to promote health, education, and economic growth globally</li>
+</ul>
 
 More information regarding the project can be found here: [Report](FinalReport.pdf)
