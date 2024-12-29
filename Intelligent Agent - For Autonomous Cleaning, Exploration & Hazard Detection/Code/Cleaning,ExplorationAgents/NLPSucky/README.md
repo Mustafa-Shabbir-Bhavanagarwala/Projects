@@ -32,13 +32,26 @@ along with relatively clean regions
 
 
 #### Agents
+An agent appears has a *position* and a *heading* (the direction it is facing).  By convention, the agent's initial
+position is [1,1] -- the upper left cell -- and its initial heading is EAST.
 
+Each cycle in the environment/simulation proceeds as follows:
+* The simulation presents the agent with *percepts* describing the current state of the world
+* The agent decides what *action* to take
+* The agent returns its chosen action to the simulation/environment
 
 Each cycle the agent gets these three *percepts*, each describing part of the world. Each percept has a True/False value
 * **DIRT** -- the square occupied by the agent contains dirt
 * **BUMP** -- the agent tried to move into a wall;  its position did not change
 * **HOME** -- the agent's current position is its initial position
 
+The agent then chooses an action from among these: 
+* **SUCK** -- try to suck up dirt.  If there is dirt in the same square as the agent, it disappears.  If there 
+is no dirt in the square, the action has no effect.  
+* **FORWARD** -- try to move to the adjacent square in the *heading* direction.  
+* **TURN_LEFT** -- change orientation by facing one compass heading to the left (**NORTH** -> **EAST**, **EAST** -> **SOUTH**, etc.)
+* **TURN_RIGHT** -- change orientation by facing one compass heading to the right (**NORTH** -> **WEST**, **WEST** -> **SOUTH**, etc.)
+* **NOP** -- Do nothing.
 
 #### Evaluating an Agent
 
@@ -48,7 +61,23 @@ Basic framework with these costs and rewards for the agent
 * The agent's *score* is the amount of dirt it sucks up before its battery is consumed
 
 #### Running a Simulation
- 
+Start the simulation testbed by running the code in `run_gui.py`.  
+
+ To configure a simulation, the first seven buttons configure these parameters
+* The grid size (fixed at 20x20)
+* The wall density
+* The dirt density
+* The dirt uniformity
+* The random number generator seed
+* The agent class
+* Time delay between simulation steps
+
+The next five buttons set up and run a simulation
+* Prepare the simulation by randomly generating walls and dirt and initializing and placing the agent in its initial position and heading
+* Run the simulation or resume a stopped simulation
+* Stop the simulation
+* Run one simulation
+* Clear the agent's log (appears in the pane to the right of the grid)
 * Creating an environment and setting its parameters
 * Creating an agent and setting its parameters
 * Initializing the environment which randomly assigns walls and dirt according to the environment parameters, and inserts the agent in the environment
