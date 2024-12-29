@@ -48,8 +48,7 @@ Basic framework with these costs and rewards for the agent
 * The agent's *score* is the amount of dirt it sucks up before its battery is consumed
 
 #### Running a Simulation
-
-Running a simulation 
+ 
 * Creating an environment and setting its parameters
 * Creating an agent and setting its parameters
 * Initializing the environment which randomly assigns walls and dirt according to the environment parameters, and inserts the agent in the environment
