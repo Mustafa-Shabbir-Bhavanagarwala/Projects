@@ -4,11 +4,11 @@
 
 ## Overview
 <p>
-This project involves analysis and prediction of youth drug usage factors such as  alcohol age of first use, marijuana ever used, and number of days of cigarettes in past month by a person. The methods finally chosen for the analysis & prediction are Decision trees, Bagging and Random Forest. The dataset involved in this project is collected from National Survey on Drug Use and Health. From the findings it is clear that ‘what grade in now/will be in’ forms a very important 
+This project involves analysis and prediction of youth drug usage factors such as alcohol age of first use, marijuana ever used, and number of days of cigarettes in past month by a person. The methods finally chosen for the analysis & prediction are Decision trees, Bagging, and Random Forest. The dataset involved in this project is collected from the National Survey on Drug Use and Health. From the findings, it is clear that ‘what grade in now/will be in’ forms a very important 
 predictor to predict ‘alcohol age of first use’. Similarly ‘first used alcohol prior to age 18’
 forms a very important predictor to predict ‘marijuana ever used’. Similarly ‘any 
-tobacco ever used’ forms a very important predictor to predict ‘number of days of 
-cigarettes in past month’. The test MSE for the prediction of 'alcohol age of first use' comes out to be 4.02. The accuracy for the prediction of 'marijuana ever used' results as 90.53%. While an accuracy of 98.12% is achieved while predicting 'number of days of cigarettes in past month'.</p>
+tobacco ever used’ forms a very important predictor to predict the ‘number of days of 
+cigarettes in the past month’. The test MSE for the prediction of 'alcohol age of first use' comes out to be 4.02. The accuracy for the prediction of 'marijuana ever used' results was 90.53%. An accuracy of 98.12% is achieved while predicting the 'number of days of cigarettes in the past month'.</p>
 
 <p>
 This 
@@ -24,4 +24,5 @@ initiatives.</p>
 More information regarding the project can be found here: [Report](Report.pdf)
 
 </p>
+
 
