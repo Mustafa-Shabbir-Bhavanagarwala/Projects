@@ -4,9 +4,8 @@
 
 ## Overview
 
-
 <p>
-This project aims to analyze and uncover the global development trends, aiming to provide insights into the economic, social, and environmental factors that influence the well-being of societies worldwide. By analyzing key socioeconomic and demographic indicators, this project seeks to uncover meaningful patterns and relationships that can inform decision-making and promote sustainable growth. The data analyzed in this project is sourced from the World Development Indicators (WDI) database, a comprehensive and trusted resource developed by the World Bank. The WDI database is renowned for its high-quality, consistent data spanning over 1,600 indicators and more than 200 countries. The data is subsetted, cleaned and imputed. As the data is time series, the appropriate imputation method implemented is Kalman Filter. Trends in a number of significant factors are analyzed and uncovered such as relationship between mortality rates and health expenditure as a percentage of GDP across various countries, correlation between government expenditure on education and infant mortality rate, and tourism expenditure trends for various countries over recent years.</p>
+This project aims to analyze and uncover global development trends, aiming to provide insights into the economic, social, and environmental factors that influence the well-being of societies worldwide. By analyzing key socioeconomic and demographic indicators, this project seeks to uncover meaningful patterns and relationships that can inform decision-making and promote sustainable growth. The data analyzed in this project is sourced from the World Development Indicators (WDI) database, a comprehensive and trusted resource developed by the World Bank. The WDI database is renowned for its high-quality, consistent data spanning over 1,600 indicators and more than 200 countries. The data is subsetted, cleaned, and imputed. As the data is a time series, the appropriate imputation method implemented is the Kalman Filter. Trends in a number of significant factors are analyzed and uncovered such as the relationship between mortality rates and health expenditure as a percentage of GDP across various countries, the correlation between government expenditure on education and infant mortality rate, and tourism expenditure trends for various countries over recent years.</p>
 <p>Several insights have been uncovered, some of which are:</p>
 <ul>
 <li>Demographic Shifts: Varied percentage changes in population, variation due to economic development, urbanization, and fertility rate differences, with growth dominating in Africa and Asia. Global birth rates declining influenced by factors like education and healthcare access</li>
@@ -29,3 +28,5 @@ This project aims to analyze and uncover the global development trends, aiming t
 <br>
 
 More information regarding the project can be found here: [Report](FinalReport.pdf)
+
+
