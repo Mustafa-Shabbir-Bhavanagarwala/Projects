@@ -43,6 +43,7 @@
   </tr>
 </table>
 
-
 ## Conclusion
-<p>Out of the machine learning models implemented, the Random Forest Regressor delivered the best results with MSE being 1.406. Eligibility for free or reduced-price lunch came out to be the most important feature for the study and prediction. Future enhancements can be including additional census data. Advanced modelling techniques can be used such as Neural Networks for Regression and Bayesian Modeling.</p>
+<p>Out of the machine learning models implemented, the Random Forest Regressor delivered the best results with MSE being 1.406. Eligibility for free or reduced-price lunch came out to be the most important feature for the study and prediction. Future enhancements can include additional census data. Advanced modelling techniques can be used such as Neural Networks for Regression and Bayesian Modeling.</p>
+
+
