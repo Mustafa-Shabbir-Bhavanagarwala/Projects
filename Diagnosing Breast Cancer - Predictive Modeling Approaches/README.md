@@ -3,7 +3,7 @@
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 
 ## Overview
-<p>This project is based on the study of the breast cancer data. Here the focus is to identify whether the class of tumor is benign or malignant. Several models are implemented to gain better results. The dataset consists of thirty features with each being one of the geometric, textural, or Statistical descriptors.</p>
+<p>This project is based on the study of breast cancer data. Here the focus is to identify whether the class of tumor is benign or malignant. Several models are implemented to gain better results. The dataset consists of thirty features with each being one of the geometric, textural, or Statistical descriptors.</p>
 
 ## Introduction
 <p>The breast cancer data used in this project consists of about 569 entries. Each entry in this data frame represents a single breast cancer tumor sample. The columns contain various features that describe the physical characteristics of the tumor, derived from digitized images of fine needle aspirates (FNA) of breast masses. Through in-depth analysis few significant features like the worst texture and worst radius of the tumor are identified and focused on in some ML models.</p>
@@ -82,6 +82,7 @@
 
 
 
-
 ## Conclusion
 <p>XGB Classifier seems to perform the better than logistic regression model with a well-achieved accuracy of 96%. The texture, area, and concavity prove to be important features for the prediction. The project provides an efficient, accurate, and scalable solution that can assist in the early diagnosis of breast cancer, ultimately improving patient outcomes and reducing the burden on healthcare systems.</p>
+
+
