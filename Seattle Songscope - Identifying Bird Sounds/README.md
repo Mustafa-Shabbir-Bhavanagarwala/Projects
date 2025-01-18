@@ -3,7 +3,7 @@
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 
 ## Overview
-<p>In this project Neural Networks are implemented and finalized to classify bird sounds from various bird species found in the Seattle area. Spectograms are the bases to train and test the machine learning models. There are total of twelve bird species data available in the form of spectograms. Two kinds of classifications are done which are binary and multi-class. The classification results are evaluated based on plots for Epoch vs Loss and Epoch vs Accuracy. Custom neural 
+<p>In this project Neural Networks are implemented and finalized to classify bird sounds from various bird species found in the Seattle area. Spectrograms are the basis for training and testing the machine learning models. There is a total of twelve bird species data available in the form of spectrograms. Two kinds of classifications are done which are binary and multi-class. The classification results are evaluated based on plots for Epoch vs Loss and Epoch vs Accuracy. Custom neural 
 networks are developed and compared across various structures and hyperparameters 
 to achieve optimal performance. The binary classification is done between two bird species which are Blue Jay versus Barn Swallow, while multi-class classification is carried out for all the twelve species.
 <br>
@@ -19,3 +19,4 @@ engagement and sustainable development. Future enhancements could include incorp
 Further details regarding the project can be found here: [ProjectReport](Report.pdf)
 
 </p>
+
