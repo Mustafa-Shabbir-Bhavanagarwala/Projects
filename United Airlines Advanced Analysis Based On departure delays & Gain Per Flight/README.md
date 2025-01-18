@@ -1,4 +1,4 @@
-<h1 align="center">United Airines(UA) Advanced Analysis Based On departure delays & Gain Per Flight</h1>
+<h1 align="center">United Airlines(UA) Advanced Analysis Based On departure delays & Gain Per Flight</h1>
 
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 
