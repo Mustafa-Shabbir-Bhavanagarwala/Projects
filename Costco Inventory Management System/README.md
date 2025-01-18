@@ -15,9 +15,9 @@ such as efficient storage, data integrity, and performance optimization. Through
 project, the aim is to empower Costco to navigate the challenges of inventory 
 management with confidence, resilience, and unparalleled efficiency, making a lasting 
 impact on the success and sustainability of the organization.</p>
-<p>In this project, SQL is used to build and manage the database. First the requirements for 
+<p>In this project, SQL is used to build and manage the database. First, the requirements for 
 the Costco inventory are gathered to understand the data that needs to be managed.
-Then a well defined ER diagram is built to model the data and its relationships based on 
+Then a well-defined ER diagram is built to model the data and its relationships based on 
 the requirements. Now forward engineering is carried out to create actual database 
 schema in a DBMS, followed by implementing indexes, constraints, and other database 
 objects. The database is then populated with inventory data. Several significant SQL 
@@ -50,7 +50,7 @@ to a PDF or Excel file for future reference.</p>
 ![queryResults](./images/queryResults.png)
 <br>
 <br>
-<p>This is how the sample downloaded output will look like in excel file.</p>
+<p>This is how the sample downloaded output will look in the excel file.</p>
 
 ![sampleOutput](./images/sampleOutput.png)
 
@@ -60,9 +60,7 @@ to a PDF or Excel file for future reference.</p>
 <li>Data Visualization</li>
 </ul>
 
-
-<p>The graph shows the number of deliveries completed by membership tier over a period 
-of time. The y-axis shows the membership tier (Gold, Platinum, Silver), and the x-axis the 
+<p>The graph shows the number of deliveries completed by the membership tier over a period of time. The y-axis shows the membership tier (Gold, Platinum, Silver), and the x-axis the 
 number of deliveries. </p>
 
 ![membership](./images/membership.png)
@@ -73,3 +71,4 @@ and it is sorted by Agent ID. The y-axis displays the Agent ID and the x-axis th
 of successful deliveries. </p>
 
 ![delivery](./images/delivery.png)
+
