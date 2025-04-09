@@ -90,7 +90,8 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <li>Average Daily Screen Time (hrs) by Age</li>
 </ul>
 
-![Line chart](./images/singleline.png)
+![line chart](./images/singleline.png)
+
 <br>
 <br>
 
