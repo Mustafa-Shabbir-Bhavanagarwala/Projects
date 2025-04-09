@@ -108,6 +108,34 @@ KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [An
 <br>
 <br>
 
+
+
+
+
+<ul>
+<li> word testtt</li>
+</ul>
+
+![blu](./images/blu.png)
+<br>
+<br>
+
+<ul>
+<li>Unot word</li>
+</ul>
+
+![tree](./images/tree.png)
+<br>
+<br>
+
+<ul>
+<li>Average Daily Screen Time (hrs) by Age</li>
+</ul>
+
+![userDistribution](./images/userDistribution.png)
+<br>
+<br>
+
 ## 📈 Dashboard Structure
 
 ### KPI Cards (Quick Summary)
