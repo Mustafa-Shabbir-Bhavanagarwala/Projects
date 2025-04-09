@@ -10,31 +10,7 @@ This Power BI dashboard project explores behavioral insights into mobile screen 
 
 ---
 
-## 🗂️ Dashboard Overview
 
-### 💡 Interactivity Notes
-
-- **Synchronized visuals**: Filtering one chart affects others unless disabled (seen via the “no impact” icon).  
-- **Hover tooltips**: All visuals show precise metrics on hover.  
-- **Visual layering and text elements**: Organized using the Power BI Selection Pane for optimal readability.  
-<br>
-<br>
-
-<ul>
-<li>Average Daily Usage Hours by App Type</li>
-</ul>
-
-![hoursByApp](./images/hoursByApp.png)
-<br>
-<br>
-
-<ul>
-<li>User Distribution by Daily Screen Time</li>
-</ul>
-
-![userDistribution](./images/userDistribution.png)
-<br>
-<br>
 
 ## 🗂️ Dataset Description
 
@@ -80,6 +56,57 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 </table>
 
 ---
+
+## 🗂️ Dashboard Overview
+
+### 💡 Interactivity Notes
+
+- **Synchronized visuals**: Filtering one chart affects others unless disabled (seen via the “no impact” icon).  
+- **Hover tooltips**: All visuals show precise metrics on hover.  
+- **Visual layering and text elements**: Organized using the Power BI Selection Pane for optimal readability.  
+<br>
+
+<p>Kindly open this report: and zoom in for actual Power BI dashboard size view</p>
+<p>KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [AnalysisReport](Analysis_Report.pdf)</p>
+<ul>
+<li>Average Daily Usage Hours by App Type</li>
+</ul>
+
+![hoursByApp](./images/hoursByApp.png)
+<br>
+<br>
+
+<ul>
+<li>User Distribution by Daily Screen Time</li>
+</ul>
+
+![MobileUsage Copy](./images/MobileUsage Copy.png)
+<br>
+<br>
+
+<ul>
+<li>Average Daily Screen Time (hrs) by Age</li>
+</ul>
+
+![userDistribution](./images/userDistribution.png)
+<br>
+<br>
+
+<ul>
+<li>Average Daily App Usage (hrs) by Gender and App Type</li>
+</ul>
+
+![userDistribution](./images/userDistribution.png)
+<br>
+<br>
+
+<ul>
+<li>App Usage Trends by Age Group</li>
+</ul>
+
+![userDistribution](./images/userDistribution.png)
+<br>
+<br>
 
 ## 📈 Dashboard Structure
 
