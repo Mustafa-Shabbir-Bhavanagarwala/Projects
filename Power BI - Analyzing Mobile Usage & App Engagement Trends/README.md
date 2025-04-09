@@ -1,10 +1,10 @@
 
-# 📱 Mobile Usage Patterns: Exploring Screen Time & App Engagement Trends
+# Mobile Usage Patterns: Exploring Screen Time & App Engagement Trends
 
 **Author**: Mustafa Shabbir Bhavanagarwala  
 **Tools Used**: Power BI, DAX
 
-## 🔍 Overview
+## Overview
 
 This Power BI dashboard project explores behavioral insights into mobile screen time and app usage across demographics. The goal is to identify usage trends, app engagement levels, and behavioral nuances by age, gender, and location.
 
@@ -12,7 +12,7 @@ This Power BI dashboard project explores behavioral insights into mobile screen 
 
 
 
-## 🗂️ Dataset Description
+## Dataset Description
 
 **Dataset Name**: `mobile_usage_behavioral_analysis`
 
@@ -24,9 +24,9 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 - `Number_of_Apps_Used`
 - App category usage hours: `Social_Media`, `Productivity`, `Gaming`
 
-### 📊 Engineered Tables in Power BI
+### Engineered Tables in Power BI
 
-<h3>📊 Engineered Tables in Power BI</h3>
+<h3>Engineered Tables in Power BI</h3>
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
@@ -57,9 +57,9 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 
 ---
 
-## 🗂️ Dashboard Overview
+## Dashboard Overview
 
-### 💡 Interactivity Notes
+### Interactivity Notes
 
 - **Synchronized visuals**: Filtering one chart affects others unless disabled (seen via the “no impact” icon).  
 - **Hover tooltips**: All visuals show precise metrics on hover.  
@@ -115,11 +115,11 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 
 
 
-## 📈 Dashboard Structure
+## Dashboard Structure
 
 ### KPI Cards (Quick Summary)
 
-<h3>📌 KPI Summary</h3>
+<h3>KPI Summary</h3>
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
@@ -178,7 +178,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 - Younger users are more active on social platforms.
 - Working-age users dominate Productivity and Gaming categories.
@@ -186,7 +186,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 
 ---
 
-## 🎯 Applications
+## Applications
 
 - User segmentation for targeted marketing
 - App feature development and personalization
@@ -194,8 +194,8 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 
 ---
 
-## 📌 Project Purpose
+<p>
 
-To deliver an interactive, insightful dashboard that helps stakeholders understand digital behaviors and usage patterns in a mobile-first world.
+More information regarding the project can be found here: [Report](Analysis_Report.pdf)
 
----
+</p>
