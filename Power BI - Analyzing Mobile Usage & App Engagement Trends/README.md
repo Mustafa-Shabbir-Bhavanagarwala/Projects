@@ -66,8 +66,8 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 - **Visual layering and text elements**: Organized using the Power BI Selection Pane for optimal readability.  
 <br>
 
-<p>Kindly open this report: and zoom in for actual Power BI dashboard size view</p>
-<p>KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [AnalysisReport](Analysis_Report.pdf)</p>
+
+KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [Analysis_Report](Analysis_Report.pdf)
 <ul>
 <li>Average Daily Usage Hours by App Type</li>
 </ul>
