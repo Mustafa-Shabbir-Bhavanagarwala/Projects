@@ -67,12 +67,13 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <br>
 
 
-KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [Analysis_Report](Analysis_Report.pdf)
+**KINDLY ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW**
+
 <ul>
 <li>Average Daily Usage Hours by App Type</li>
 </ul>
 
-![hoursByApp](./images/hoursByApp.png)
+![Decomposition Tree](./images/tree.png)
 <br>
 <br>
 
@@ -80,7 +81,7 @@ KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [An
 <li>User Distribution by Daily Screen Time</li>
 </ul>
 
-![MobileUsage Copy](./images/MobileUsage Copy.png)
+![Bar chart](./images/verbar.png)
 <br>
 <br>
 
@@ -88,7 +89,7 @@ KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [An
 <li>Average Daily Screen Time (hrs) by Age</li>
 </ul>
 
-![userDistribution](./images/userDistribution.png)
+![Line chart](./images/singleLine.png)
 <br>
 <br>
 
@@ -96,7 +97,7 @@ KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [An
 <li>Average Daily App Usage (hrs) by Gender and App Type</li>
 </ul>
 
-![userDistribution](./images/userDistribution.png)
+![Bar chart](./images/genderbar.png)
 <br>
 <br>
 
@@ -104,37 +105,13 @@ KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [An
 <li>App Usage Trends by Age Group</li>
 </ul>
 
-![userDistribution](./images/userDistribution.png)
+![Multi Line chart](./images/multiline.png)
 <br>
 <br>
 
 
 
 
-
-<ul>
-<li> word testtt</li>
-</ul>
-
-![blu](./images/blu.png)
-<br>
-<br>
-
-<ul>
-<li>Unot word</li>
-</ul>
-
-![tree](./images/tree.png)
-<br>
-<br>
-
-<ul>
-<li>Average Daily Screen Time (hrs) by Age</li>
-</ul>
-
-![userDistribution](./images/userDistribution.png)
-<br>
-<br>
 
 ## 📈 Dashboard Structure
 
@@ -174,6 +151,15 @@ KINDLY OPEN THIS REPORT AND ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW: [An
 </table>
 
 ### Main Visuals & Insights
+
+<br>
+
+<p>Example</p>
+
+
+![Example](./images/example.png)
+<br>
+<br>
 
 1. **Decomposition Tree**: Drill into usage by Gender → Location → Age → App Type
 2. **App Usage by Gender and App Type**:
