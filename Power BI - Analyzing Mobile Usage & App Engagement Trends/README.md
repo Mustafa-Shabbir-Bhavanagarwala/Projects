@@ -10,6 +10,32 @@ This Power BI dashboard project explores behavioral insights into mobile screen 
 
 ---
 
+## 🗂️ Dashboard Overview
+
+### 💡 Interactivity Notes
+
+- **Synchronized visuals**: Filtering one chart affects others unless disabled (seen via the “no impact” icon).  
+- **Hover tooltips**: All visuals show precise metrics on hover.  
+- **Visual layering and text elements**: Organized using the Power BI Selection Pane for optimal readability.  
+<br>
+<br>
+
+<ul>
+<li>Average Daily Usage Hours by App Type</li>
+</ul>
+
+![hoursByApp](./images/hoursByApp.png)
+<br>
+<br>
+
+<ul>
+<li>User Distribution by Daily Screen Time</li>
+</ul>
+
+![userDistribution](./images/userDistribution.png)
+<br>
+<br>
+
 ## 🗂️ Dataset Description
 
 **Dataset Name**: `mobile_usage_behavioral_analysis`
