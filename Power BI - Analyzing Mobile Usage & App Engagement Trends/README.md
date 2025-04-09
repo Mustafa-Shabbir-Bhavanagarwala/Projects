@@ -66,6 +66,13 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 - **Visual layering and text elements**: Organized using the Power BI Selection Pane for optimal readability.  
 <br>
 
+<ul>
+<li>final test</li>
+</ul>
+
+![Decomposition Tree](./images/finaltest.png)
+<br>
+<br>
 
 <ul>
 <li>test</li>
