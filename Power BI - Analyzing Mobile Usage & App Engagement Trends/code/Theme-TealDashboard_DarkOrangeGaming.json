@@ -1,0 +1,14 @@
+{
+  "name": "Teal Dashboard - Darker Orange for Gaming",
+  "dataColors": [
+    "#003F5C",
+    "#C65B0A",
+    "#54A24B",
+    "#007C91",
+    "#A9D5D0",
+    "#B279A2"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#212121",
+  "tableAccent": "#007C91"
+}
