@@ -1,8 +1,10 @@
 
-# Mobile Usage Patterns: Exploring Screen Time & App Engagement Trends
 
-**Author**: Mustafa Shabbir Bhavanagarwala  
-**Tools Used**: Power BI, DAX
+<h1 align="center">Mobile Usage Patterns: Exploring Screen Time & App Engagement Trends</h1>
+
+<p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
+
+
 
 ## Overview
 
@@ -56,6 +58,8 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 </table>
 
 ---
+<br>
+**Tools Used**: Power BI, DAX
 
 ## Dashboard Overview
 
