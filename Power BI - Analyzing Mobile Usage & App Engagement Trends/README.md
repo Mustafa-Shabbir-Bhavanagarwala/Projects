@@ -70,7 +70,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <li>final test</li>
 </ul>
 
-![Decomposition Tree](./images/finaltest.png)
+![Decomposition Tree](./images/finalltest.png)
 <br>
 <br>
 
