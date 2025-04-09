@@ -66,22 +66,6 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 - **Visual layering and text elements**: Organized using the Power BI Selection Pane for optimal readability.  
 <br>
 
-<ul>
-<li>final test</li>
-</ul>
-
-![Decomposition Tree](./images/finalltest.png)
-<br>
-<br>
-
-<ul>
-<li>test</li>
-</ul>
-
-![Decomposition Tree](./images/treepd.png)
-<br>
-<br>
-
 **KINDLY ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW**
 
 <ul>
@@ -104,7 +88,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <li>Average Daily Screen Time (hrs) by Age</li>
 </ul>
 
-![Line chart](./images/singleLine.png)
+![Line chart](./images/singleline.png)
 <br>
 <br>
 
