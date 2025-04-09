@@ -67,6 +67,14 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <br>
 
 
+<ul>
+<li>test</li>
+</ul>
+
+![Decomposition Tree](./images/treepd.png)
+<br>
+<br>
+
 **KINDLY ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW**
 
 <ul>
