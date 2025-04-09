@@ -80,9 +80,8 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <li>User Distribution by Daily Screen Time</li>
 </ul>
 
+![Bar chart](./images/verbar.png)
 
-
-<img src="./images/verbar.png" alt="Bar chart" width="600"/>
 
 <br>
 <br>
