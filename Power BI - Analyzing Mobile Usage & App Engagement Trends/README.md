@@ -167,14 +167,18 @@ The dataset contains mobile usage data of users aged 18–60 from various cities
 <br>
 
 1. **Decomposition Tree**: Drill into usage by Gender → Location → Age → App Type
+
 2. **App Usage by Gender and App Type**:
    - Females slightly lead in Social Media usage
    - Males use Productivity apps marginally more
+
 3. **User Distribution by Screen Time**:
    - Majority use phones 9+ hrs/day
+
 4. **Screen Time by Age**:
    - Peaks at 18, 29, and 39 years
    - Dips during transitional life stages (e.g., 24, 34)
+   
 5. **App Usage Trends by Age Group**:
    - Social Media: Most popular among 15–25
    - Productivity & Gaming: Peaks at 36–45
