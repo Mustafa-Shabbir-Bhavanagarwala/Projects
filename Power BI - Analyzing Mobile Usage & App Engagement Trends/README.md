@@ -221,9 +221,11 @@ The dataset contains mobile usage data of users aged 18–60 from various cities
 
 ## Key Insights
 
+- Screen time peaks at ages 18 and 29 (8.1 hrs), with noticeable dips at 24 and 34, reflecting life-stage transitions.
 - Younger users are more active on social platforms.
 - Working-age users dominate Productivity and Gaming categories.
 - A large segment of users spend 9+ hours daily on their phones.
+- Females spend more time on social media, while males slightly lead in productivity apps; gaming usage is nearly equal across genders.
 
 
 
