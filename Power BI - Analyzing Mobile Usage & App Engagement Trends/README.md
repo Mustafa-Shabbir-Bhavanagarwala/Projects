@@ -89,8 +89,6 @@ The dataset contains mobile usage data of users aged 18–60 from various cities
 </ul>
 
 ![Bar chart](./images/verbar.png)
-
-
 <br>
 <br>
 
@@ -99,7 +97,6 @@ The dataset contains mobile usage data of users aged 18–60 from various cities
 </ul>
 
 ![line chart](./images/singleline.png)
-
 <br>
 <br>
 
