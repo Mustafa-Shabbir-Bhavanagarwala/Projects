@@ -156,7 +156,7 @@ The dataset contains mobile usage data of users aged 18–60 from various cities
   </tbody>
 </table>
 
-### Main Visuals & Insights
+### Insights
 
 
 <p>Example</p>
@@ -166,22 +166,56 @@ The dataset contains mobile usage data of users aged 18–60 from various cities
 <br>
 <br>
 
-1. **Decomposition Tree**: Drill into usage by Gender → Location → Age → App Type
+1. **Decomposition Tree: Avg Daily Usage Hours by App Type**
 
-2. **App Usage by Gender and App Type**:
-   - Females slightly lead in Social Media usage
-   - Males use Productivity apps marginally more
+   - **Purpose**: Drill down into usage behavior from overall usage to demographics and app category.
+   - **Hierarchy Path**: Gender → Location → Age → App Type
+   - **Interaction Example**: Selecting Male users from Los Angeles aged 55:
+     - **Social Media**: 3.58 hrs  
+     - **Productivity**: 2.11 hrs  
+     - **Gaming**: 1.51 hrs  
 
-3. **User Distribution by Screen Time**:
-   - Majority use phones 9+ hrs/day
+   This tool facilitates deep exploration of how combinations of demographic variables influence app usage behavior.
 
-4. **Screen Time by Age**:
-   - Peaks at 18, 29, and 39 years
-   - Dips during transitional life stages (e.g., 24, 34)
-   
-5. **App Usage Trends by Age Group**:
-   - Social Media: Most popular among 15–25
-   - Productivity & Gaming: Peaks at 36–45
+2. **Bar Chart: Avg Daily App Usage (hrs) by Gender and App Type**
+
+   - **Purpose**: Compare male vs. female usage by app category.
+   - **Insights**:
+     - **Social Media**: Females use more (2.52 hrs) than males (2.40 hrs)
+     - **Productivity**: Males slightly ahead (2.52 hrs vs. 2.47 hrs)
+     - **Gaming**: Near identical (2.49 hrs vs. 2.46 hrs)
+
+   Subtle behavioral differences emerge between genders, particularly in social and productivity apps.
+
+3. **Column Chart: User Distribution by Daily Screen Time**
+
+   - **Purpose**: Show how users are distributed across screen time brackets.
+   - **Insights**:
+     - Majority of users (400) spend **9+ hours/day**
+     - Gradual decline: **6–9 hrs** (261), **3–6 hrs** (194), **<3 hrs** (145)
+
+   This highlights heavy mobile dependency in a large portion of the user base.
+
+4. **Line Chart: Avg Daily Screen Time (hrs) by Age**
+
+   - **Purpose**: Track screen time behavior by age (5-year intervals).
+   - **X-axis Note**: Each tick represents the start of a 5-year group (e.g., 20 → ages 20–24)
+   - **Insights**:
+     - Peaks at **18 (8.1 hrs)**, **29 (8.1 hrs)**, and **39 (8.0 hrs)**
+     - Dips at **24 (7.0 hrs)**, **34 (7.2 hrs)**, and **49 (7.5 hrs)**
+
+   Fluctuations reflect life-stage transitions like college, early career, and midlife.
+
+5. **Line Chart: App Usage Trends by Age Group**
+
+   - **Purpose**: Visualize app type preferences across age groups.
+   - **Age Bins**: 15–25, 26–35, 36–45, 46+
+   - **Insights**:
+     - **Social Media**: Most used in the **15–25 group** (~2.55 hrs)
+     - **Gaming**: Peaks in the **36–45 group** (~2.6 hrs), not the youngest
+     - **Productivity**: Highest in **36–45** (~2.75 hrs), aligning with working professionals
+
+   This reveals surprising patterns—**younger users are more social-media active**, and **mid-aged users lead in productivity and gaming**.
 
 
 
