@@ -52,6 +52,17 @@
 
 <p>
 <li><h3>
+<a href="./Power BI - Analyzing Mobile Usage & App Engagement Trends/" > Power BI - Analyzing Mobile Usage & App Engagement Trends 🔗</a>
+</h3></li>
+<ul>
+<li><i>Objective:</i> To analyze mobile usage behavior—focusing on screen time, app engagement, and demographic patterns—by designing and developing an interactive dashboard using Power BI for deriving actionable insights and supporting strategic decision-making.</li>
+<li><i>Techniques:</i> Data modeling, DAX calculations, Categorical binning, Interactive visuals with drill-downs and filters for demographic comparison and trend exploration.</li>
+<li><i>Tools:</i> Power BI, DAX</li>
+</ul>
+</p>
+
+<p>
+<li><h3>
 <a href="./TF-IDF Driven Document Search Engine - SmartSearch/" >SmartSearch: TF-IDF Driven Document Search Engine 🔗</a>
 </h3></li>
 <ul>
