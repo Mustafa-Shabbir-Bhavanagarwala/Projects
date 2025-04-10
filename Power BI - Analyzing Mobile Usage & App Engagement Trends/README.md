@@ -8,17 +8,16 @@
 
 ## Overview
 
-This Power BI dashboard project explores behavioral insights into mobile screen time and app usage across demographics. The goal is to identify usage trends, app engagement levels, and behavioral nuances by age, gender, and location.
+In this project, the behavioral insights into mobile screen time and app usage across demographics are explored using Power BI. The goal is to identify usage trends, app engagement levels, and behavioral nuances by age, gender, and location.
 
----
+
 
 
 
 ## Dataset Description
 
-**Dataset Name**: `mobile_usage_behavioral_analysis`
 
-It contains mobile usage data of users aged 18–60 from various cities. Key fields include:
+The dataset contains mobile usage data of users aged 18–60 from various cities in the United States. Key fields include:
 
 - `User_ID`: Unique user identifier
 - `Age`, `Gender`, `Location`
@@ -57,9 +56,14 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
   </tbody>
 </table>
 
----
+
 <br>
-**Tools Used**: Power BI, DAX
+
+## Tools Used
+<ul>
+<li>Power BI</li>
+<li>DAX</li>
+<ul>
 
 ## Dashboard Overview
 
@@ -73,7 +77,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 **KINDLY ZOOM IN FOR ACTUAL POWER BI DASHBOARD SIZE VIEW**
 
 <ul>
-<li>Average Daily Usage Hours by App Type</li>
+<li>Focus Graph: Average Daily Usage Hours by App Type</li>
 </ul>
 
 ![Decomposition Tree](./images/tree.png)
@@ -81,7 +85,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <br>
 
 <ul>
-<li>User Distribution by Daily Screen Time</li>
+<li>Focus Graph: User Distribution by Daily Screen Time</li>
 </ul>
 
 ![Bar chart](./images/verbar.png)
@@ -91,7 +95,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <br>
 
 <ul>
-<li>Average Daily Screen Time (hrs) by Age</li>
+<li>Focus Graph: Average Daily Screen Time (hrs) by Age</li>
 </ul>
 
 ![line chart](./images/singleline.png)
@@ -100,7 +104,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <br>
 
 <ul>
-<li>Average Daily App Usage (hrs) by Gender and App Type</li>
+<li>Focus Graph: Average Daily App Usage (hrs) by Gender and App Type</li>
 </ul>
 
 ![Bar chart](./images/genderbar.png)
@@ -108,7 +112,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 <br>
 
 <ul>
-<li>App Usage Trends by Age Group</li>
+<li>Focus Graph: App Usage Trends by Age Group</li>
 </ul>
 
 ![Multi Line chart](./images/multiline.png)
@@ -123,7 +127,6 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 
 ### KPI Cards (Quick Summary)
 
-<h3>KPI Summary</h3>
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
@@ -158,7 +161,6 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 
 ### Main Visuals & Insights
 
-<br>
 
 <p>Example</p>
 
@@ -180,7 +182,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
    - Social Media: Most popular among 15–25
    - Productivity & Gaming: Peaks at 36–45
 
----
+
 
 ## Key Insights
 
@@ -188,7 +190,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 - Working-age users dominate Productivity and Gaming categories.
 - A large segment of users spend 9+ hours daily on their phones.
 
----
+
 
 ## Applications
 
@@ -196,7 +198,7 @@ It contains mobile usage data of users aged 18–60 from various cities. Key fie
 - App feature development and personalization
 - UX research and digital wellness studies
 
----
+
 
 <p>
 
