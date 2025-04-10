@@ -27,7 +27,7 @@ The dataset contains mobile usage data of users aged 18–60 from various cities
 
 ### Engineered Tables in Power BI
 
-<h3>Engineered Tables in Power BI</h3>
+
 
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
@@ -63,7 +63,7 @@ The dataset contains mobile usage data of users aged 18–60 from various cities
 <ul>
 <li>Power BI</li>
 <li>DAX</li>
-<ul>
+</ul>
 
 ## Dashboard Overview
 
