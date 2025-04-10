@@ -41,6 +41,17 @@
 
 <p>
 <li><h3>
+<a href="./Costco Inventory Management System/" >Costco Inventory Management System 🔗</a>
+</h3></li>
+<ul>
+<li><i>Objective:</i> The project aims to deliver an inventory management system that involves implementing a robust database thereby ensuring seamless management of the vast inventory, ensuring accuracy, and real-time insights which would enhance the overall supply chain, reduce costs, and elevate the customer experience. </li>
+<li><i>Techniques:</i> Database Design, forward engineering, SQL Queries generation, Stored Procedures, User Interface Design, Data Analysis</li>
+<li><i>Tools:</i> SQL, Python: Tinkter, tabulate </li>
+</ul>
+</p>
+
+<p>
+<li><h3>
 <a href="./Seattle Songscope - Identifying Bird Sounds/" >Seattle Songscope: Identifying Bird Sounds 🔗</a>
 </h3></li>
 <ul>
@@ -49,6 +60,7 @@
 <li><i>Tools:</i> Python: Tensorflow, Keras, Scipy, Sklearn, Seaborn</li>
 </ul>
 </p>
+
 
 <p>
 <li><h3>
@@ -83,16 +95,6 @@
 </ul>
 </p>
 
-<p>
-<li><h3>
-<a href="./Costco Inventory Management System/" >Costco Inventory Management System 🔗</a>
-</h3></li>
-<ul>
-<li><i>Objective:</i> The project aims to deliver an inventory management system that involves implementing a robust database thereby ensuring seamless management of the vast inventory, ensuring accuracy, and real-time insights which would enhance the overall supply chain, reduce costs, and elevate the customer experience. </li>
-<li><i>Techniques:</i> Database Design, forward engineering, SQL Queries generation, Stored Procedures, User Interface Design, Data Analysis</li>
-<li><i>Tools:</i> SQL, Python: Tinkter, tabulate </li>
-</ul>
-</p>
 
 
 <p>
