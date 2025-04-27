@@ -2,7 +2,7 @@
 
 ## Overview
 
-<p>This repository contains projects based on Data Science, Machine Learning, Data Analysis, Big Data, Artificial Intelligence and Database Development & Data Management. The projects use various machine learning techniques, including classification, regression, clustering, time series forecasting, and natural language processing. The projects aim to solve real-world problems, providing insights and predictive capabilities. The projects deal with Data Collection, Data Preprocessing, Data Analysis, Model building and implementation, Model Evaluation, Model selection, Model Optimization, Producing accurate results.</p>
+<p>This repository contains projects based on Data Science, Machine Learning, Data Analysis, Big Data, Artificial Intelligence, Web Analytics and Database Development & Data Management. The projects use various machine learning techniques, including classification, regression, clustering, time series forecasting, and natural language processing. The projects aim to solve real-world problems, providing insights and predictive capabilities. The projects deal with Data Collection, Data Preprocessing, Data Analysis, Model building and implementation, Model Evaluation, Model selection, Model Optimization, Producing accurate results.</p>
 
 
 ## Projects List
@@ -95,6 +95,29 @@
 </ul>
 </p>
 
+<p>
+<li><h3>
+<a href="./United Airlines Advanced Analysis Based On departure delays & Gain Per Flight/" >United Airlines Advanced Analysis Based on Departure Delays & Gain Per Flight 🔗</a>
+</h3></li>
+<ul>
+<li><i>Objective:</i> The relationship between departure delays and variables like time of day, temperature, precipitation, and visibility of the United Airlines flight data are investigated using graphical analysis and permutation tests. Further on, net gain per flight, that is, how much quicker the flight ended up being than planned is examined, considering factors such as flight duration and late departures. </li>
+<li><i>Techniques:</i> Hypothesis Testing, Data Analysis, Data Wrangling,  Statistical Analysis: T-tests, Confidence intervals</li>
+<li><i>Tools:</i> R</li>
+</ul>
+</p>
+
+
+
+<p>
+<li><h3>
+<a href="./Using Google Analytics to Power SeattleSpots - A Data Driven Travel Website/" >Using Google Analytics to Power SeattleSpots - A Data Driven Travel Website 🔗</a>
+</h3></li>
+<ul>
+<li><i>Objective:</i> To analyze web traffic, user behavior, and engagement patterns using Google Analytics 4 and Looker Studio, and optimize the SeattleSpots travel website through KPI-driven insights and event-based performance tracking. </li>
+<li><i>Techniques:</i> Funnel Analysis, Event Tracking, Scroll Depth Analysis, Click-Through Rate Optimization, KPI Measurement, User Engagement Analytics, Dashboard Visualization</li>
+<li><i>Tools:</i>Google Analytics 4 (GA4), Google Tag Manager, Google Looker Studio, WordPress, MonsterInsights Plugin, Site Kit Plugin</li>
+</ul>
+</p>
 
 
 <p>
@@ -110,16 +133,6 @@
 </p>
 
 
-<p>
-<li><h3>
-<a href="./United Airlines Advanced Analysis Based On departure delays & Gain Per Flight/" >United Airlines Advanced Analysis Based on Departure Delays & Gain Per Flight 🔗</a>
-</h3></li>
-<ul>
-<li><i>Objective:</i> The relationship between departure delays and variables like time of day, temperature, precipitation, and visibility of the United Airlines flight data are investigated using graphical analysis and permutation tests. Further on, net gain per flight, that is, how much quicker the flight ended up being than planned is examined, considering factors such as flight duration and late departures. </li>
-<li><i>Techniques:</i> Hypothesis Testing, Data Analysis, Data Wrangling,  Statistical Analysis: T-tests, Confidence intervals</li>
-<li><i>Tools:</i> R</li>
-</ul>
-</p>
 
 <p>
 <li><h3>
@@ -231,9 +244,12 @@ US  🔗</a>
 ## Technologies used:
 <p> Below is a summary of the technologies used in various projects in the repository</p>
 <ul>
-<li><b>Programming Languages:</b> Python (libraries such as NLTK, SciKit-Learn, Seaborn, Tensorflow, PyTorch, SciPy, Plotly, Missingno & packages like Statsmodels), R, SQL</li>
-<li><b>Big data tools:</b> Apache Spark, AWS:EMR, Hadoop Streaming, pipelines, Sqoop, Avro, DynamoDB</li>
-<li><b>Business analytics tools:</b> Tableau, Excel</li>
+<li><b>Programming Languages:</b> Python, R, SQL</li>
+
+<li><b>Machine Learning:</b>NLTK, SciKit-Learn, Spacy, Seaborn, Tensorflow, PyTorch, SciPy, Plotly, Missingno, Statsmodels, Tidyverse</li>
+
+<li><b>Data Engineering tools and Cloud services:</b> Apache Spark, AWS:EMR, EC2, Hadoop Streaming, Sqoop, Avro, DynamoDB, Hive</li>
+<li><b>Data visualization tools:</b> Power BI, Tableau, Excel, Google Analytics, Looker Studio, Seaborn</li>
 <li><b>Scripting Language:</b> Linux </li>
 </ul>
 
