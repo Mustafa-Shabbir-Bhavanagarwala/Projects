@@ -15,6 +15,6 @@
 </ul>
 
 </p>
-<p> A Number of techniques for understanding the data are implemented, such as Frequency distribution tables, Bar charts, Pie charts, Pareto diagrams, histograms, Cross tables, and Scatter plots. The concepts like mean, median, mode, skewness, variance, standard deviation, coefficient of variation, and covariance are used to help understand data patterns, trends, and relationships, thus providing a foundation for making data-driven decisions, identifying insights & providing a structured understanding of the datasets. The range of true population parameters for the data is estimated using Confidence intervals. Support/reject of claims about population parameters for the data are determined using Hypothesis testing. </p>
+<p> A Number of techniques for understanding the data are implemented, such as Frequency distribution tables, Bar charts, Pie charts, Pareto diagrams, histograms, Cross tables, and Scatter plots. The concepts like mean, median, mode, skewness, variance, standard deviation, coefficient of variation, covariance and excel methods like pivot tables, advanced formulas, and Macros are used to help understand data patterns, trends, and relationships, thus providing a foundation for making data-driven decisions, identifying insights & providing a structured understanding of the datasets. The range of true population parameters for the data is estimated using Confidence intervals. Support/reject of claims about population parameters for the data are determined using Hypothesis testing. </p>
 
 

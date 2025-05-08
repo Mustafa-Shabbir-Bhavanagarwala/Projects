@@ -222,7 +222,7 @@ US  🔗</a>
 </h3></li>
 <ul>
 <li><i>Objective:</i> This section involves analysing several datasets, where each of the tasks are analysed using Excel, involving fundamentals from the Statistics(Descriptive,Inferential) and Data Analysis domain </li>
-<li><i>Techniques:</i>Hypothesis Testing, Visualizations using graphs, Correlation and covariance, Confidence intervals, Regression analysis, Measures of central tendency, asymmetry, and variability</li>
+<li><i>Techniques:</i>Hypothesis Testing, Visualizations using graphs, pivot tables, advanced formulas, Macros, Correlation and covariance, Confidence intervals, Regression analysis, Measures of central tendency, asymmetry, and variability</li>
 <li><i>Tools:</i>Excel</li>
 </ul>
 </p>
