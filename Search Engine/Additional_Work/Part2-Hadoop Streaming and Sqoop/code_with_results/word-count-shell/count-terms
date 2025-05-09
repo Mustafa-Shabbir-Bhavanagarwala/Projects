@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+import sys
+from collections import defaultdict
+
+totals = defaultdict(int)
+
+for term in sys.stdin:
+    term = term.strip()
+    totals[term] += 1
+
+for term, total in totals.items():
+    print(term + " " + str(total))

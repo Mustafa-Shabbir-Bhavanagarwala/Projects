@@ -1,0 +1,8 @@
+INSERT OVERWRITE LOCAL DIRECTORY 'country-average-population'
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+ STORED AS TEXTFILE
+ SELECT Country.Name, avg(City.Population) FROM City, Country
+  WHERE City.CountryCode = Country.Code
+  GROUP BY Country.Name
+  ORDER BY avg(City.Population) DESC
+  LIMIT 10;

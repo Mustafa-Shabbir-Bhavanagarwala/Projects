@@ -1,0 +1,7 @@
+# Run a MapReduce program in Hadoop
+
+# First argument is both JarFile name, and the MapReduce class
+# Second argument is input directory (in HDFS)
+# Third argument is output directory (in HDFS)
+
+hadoop jar $1.jar $1 $2 $3

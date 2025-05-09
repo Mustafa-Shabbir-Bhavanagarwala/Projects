@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+import sys
+
+### Split lines -- take input lines, split into words, emit each word along with a count of 1
+
+for line in sys.stdin:
+      line = line.strip()
+      for word in line.split():
+            print(word + " " + str(1))

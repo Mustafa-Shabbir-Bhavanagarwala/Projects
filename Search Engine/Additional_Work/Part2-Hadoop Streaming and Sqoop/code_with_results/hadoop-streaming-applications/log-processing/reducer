@@ -1,0 +1,51 @@
+#!/usr/bin/python3
+
+import sys
+
+#  Current key being processed, and accumulated count
+current_term = None
+inf = 0
+war=0
+err=0
+fat=0
+# The term just being read in
+minute = None
+count=0
+# input comes from STDIN
+for line in sys.stdin:
+    
+    # remove leading and trailing whitespace
+    line = line.strip()
+    
+    minute,severity = line.split('\t')
+
+    if current_term == minute:
+        # Seeing the same key.  Just accumulate
+        count+=1
+        if severity=="INFO":
+            inf=inf+1
+        elif severity=="WARN":
+            war=war+1
+        elif severity=="ERROR":
+            err=err+1
+        elif severity=="FATAL":
+            fat=fat+1
+    else:
+        # Seeing either a new different key, or the first one
+        if current_term:
+            # Write result to STDOUT
+            print('%s\t%s\tINFO:%s\tWARN:%s\tERROR:%s\tFATAL:%s' % (current_term, count,inf,war,err,fat))
+        count=1
+        if severity=="INFO":
+            inf=1
+        elif severity=="WARN":
+            war=1
+        elif severity=="ERROR":
+            err=1
+        elif severity=="FATAL":
+            fat=1
+        current_term=minute
+
+# STDIN stream is empty.  But output the last key and value
+if count>0 :
+    print('%s\t%s\tINFO:%s\tWARN:%s\tERROR:%s\tFATAL:%s' % (current_term, count,inf,war,err,fat))

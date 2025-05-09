@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+import sys
+import re
+
+# input comes from STDIN (standard input)
+for line in sys.stdin:
+    # remove leading and trailing whitespace
+    line = line.strip()
+    # split the line into words
+    words = line.split()
+    minute = words[1].split(":")[1]
+    severity = words[2]
+    #temp=words[1][9:]+"\t"+words[2]
+    print('%s\t%s' % (minute, severity))

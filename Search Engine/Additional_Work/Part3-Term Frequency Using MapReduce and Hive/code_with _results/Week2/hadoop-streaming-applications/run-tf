@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+run-term-count-doc-and-term
+
+run-term-count-doc
+
+hive -f tf.hive
+
+cat /home/ubuntu/tf/* > content.txt
+
+hdfs dfs -rm -r /input
+hdfs dfs -rm -r /output

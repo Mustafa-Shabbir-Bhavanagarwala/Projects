@@ -1,0 +1,136 @@
+Agenda for Week 3
+
+From last week:
+  Names of the countries that have highest population per city, in order include country
+  and population
+
+First re-do it in MySQL
+
+show tables;
+describe City;
+
+# This is what we did last time using mapreduce
+select CountryCode, avg(Population) from City group by CountryCode order by avg(Population) desc limit 10;
+
+# Same idea, only with a join to get the country name
+select Country.Name, avg(City.Population) from City, Country where City.CountryCode = Country.Code group by CountryCode order by avg(City.Population) desc limit 10;
+
+(Note)
+MapReduce implementation
+  * No join on name
+  * Hadoop could do the group by and average, and also select certain columns, 
+       but sorting and limiting we did through the shell
+
+So the goal with Hive is to be able to do the full SQL query w/out shell help.
+
+========================
+Hive client/server
+* One connection, run hiveserver2 in background
+* Second connection run beeline, then !connect jdbc:hive2://localhost:10000 --
+    empty username and password.  Remember to wait for a while for the Hive server
+    
+Hive acts like a DBMS, so we first have to create and populate tables.
+1.  From HDFS
+2.  From Sqoop
+
+Getting City from HDFS
+hdfs dfs -mkdir /database
+hdfs dfs -mkdir /database/world
+
+sqoop import --connect jdbc:mysql://localhost/world \
+ --username root --password root \
+ --table City \
+ --target-dir /database/world/City
+
+# This is Hive -- note all lower case
+create table city (id INT, name STRING, countrycode STRING, district STRING, population INT);
+ 
+# Look at the metastore in MySQL
+
+ SELECT c.* FROM TBLS t
+ JOIN DBS d
+ ON t.DB_ID = d.DB_ID
+ JOIN SDS s
+ ON t.SD_ID = s.SD_ID
+ JOIN COLUMNS_V2 c
+ ON s.CD_ID = c.CD_ID
+ WHERE TBL_NAME = 'city'
+ AND d.NAME='default'
+
+# Then in Hive associate the data stream with it.
+ load data inpath "/database/world/City" into table City;
+
+But do a select * from city and see that it didn't get the field delimiter.
+
+    drop table city
+
+    create table city (id INT, name STRING, countrycode STRING, district STRING, population INT) row format delimited fields terminated by ',';
+
+#  Need to note here that /database/world/City no longer exists because it was imported into Hive.
+#  So need to re-do the sqoop
+
+    load data inpath "/database/world/City" into table city;
+   After that completes, note that the data is here:  /user/hive/warehouse/city
+
+6.  Now try to get Country DIRECTLY into Hive using sqoop
+
+     sqoop import \
+       --connect jdbc:mysql://localhost/world \
+       --username root \
+       --password root \
+       --fields-terminated-by ','\
+       --table Country \
+       --hive-import
+
+ERROR tool.ImportTool: Import failed: java.io.IOException: Generating splits for a textual index column allowed only in case of "-Dorg.apache.sqoop.splitter.allow_text_splitter=true" property passed as a parameter
+
+     sqoop import \
+       -Dorg.apache.sqoop.splitter.allow_text_splitter=true \
+       --connect jdbc:mysql://localhost/world \
+       --username root \
+       --password root \
+       --fields-terminated-by ','\
+       --table Country \
+       --hive-import \
+       --num-mappers 1
+       
+
+
+   Remember Country needs to be deleted in HDFS ahead of time.
+   Verify the table and its schema.
+   Show the files in /user/hive/warehouse
+
+7.  Now the join
+ Introduce hive scripts and look in join-and-group-query.hive
+ Connect via beeline, be in the right directory, then !run join-and-group-query.hive
+ Watch what's happening on the server!
+
+Next, methods of exporting.
+  1.  Store as Hive Table
+  2.  Export to HDFS
+  3.  Export to local file system
+  
+There are 3 Hive scripts in the repo.
+
+===================
+Clean up -- kill the hive server!
+====================
+
+Summary:
+Using Hadoop / HDFS look like an RDBMS
+1.  Load relational data into HDFS using Sqoop
+2.  Creating tables in Hive
+3.  Associating a table with data in HDFS
+4.  Hive queries
+5.  Exporting
+
+A big deal right now is schema information.  
+Here we have the schema information associated with the Hive Metastore (only) but when we export out 
+to the next app or the next phase, that information is lost.  The next step will be to see how we can associate
+schema information with the data itself.
+
+
+
+
+
+

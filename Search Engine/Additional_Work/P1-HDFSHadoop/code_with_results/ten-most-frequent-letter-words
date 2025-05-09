@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+
+#get name of directory( command line argument)
+#run wordcountjava on those docs (get (word,freq) but lots weird words)
+#filter
+#sort
+#select 10
+
+hdfs dfs -mkdir /input
+hdfs dfs -put $1 /input/$1
+hdfs dfs -mkdir /output
+
+cd WordCountJava
+compile-map-reduce WordCount
+run-map-reduce WordCount  /input/$1 /output/word-count-output
+cd ..
+hdfs dfs -getmerge /output/word-count-output word-count-output.txt
+cat word-count-output.txt | filter-noon-lc-letters | sort -k 2 -n -r | head -n 10
+
+hdfs dfs -rm -r /input /output
+
+

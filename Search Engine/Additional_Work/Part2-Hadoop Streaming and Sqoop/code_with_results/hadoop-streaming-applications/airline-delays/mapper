@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+
+import sys
+
+
+for line in sys.stdin:
+    fields=line.strip().split(",")
+    print('%s\t%s' % (fields[8], fields[43]))

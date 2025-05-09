@@ -1,0 +1,25 @@
+For this demo we will do simple processing on our documents/books.
+The purpose of the demo is
+  a.  To get a Map Reduce job running on AWS (Elastic Map Reduce or EMR)
+  b.  To try some testing/debugging techniques, because testing in the cloud
+      can be very time-consuming.  Best to debug your program as much as you
+      can before moving it to AWS, then if you get errors they are probably
+      related to the cloud and not your application.
+
+
+Problem statement:
+  * Input -- a directory containing text files (our usual text corpus)
+      You will upload your personal copy of the text corpus to an S3 bucket
+  * Output -- for each document (ID), report on (a) the longest term and its length,
+      (b) the percentage of the words in the document that were filtered during
+      text preprocessing
+
+For the demo we'll use the definition of text preprocessing we used in the term-frequency lab:
+downcase then remove non-letters, and remove empty strings.  You will be doing something better in the lab.
+
+Other conventions for using AWS (these are similar to those in the lab):
+  * Create an S3 bucket to hold your solution
+  * Create two folders to hold the code and output data
+  * The mapper and reducer will be in the code subfolder, and will
+    have the names demo-mapper.py and demo-reducer.py
+

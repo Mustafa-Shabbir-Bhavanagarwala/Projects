@@ -1,0 +1,11 @@
+#!/bin/bash
+# Assumes that we have documents in HDFS -- in /input-data/textcorpora
+# Assumes that output directory /output-data has been created
+hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar \
+       -D mapred.reduce.tasks=4 \
+       -file word-count-mapper \
+       -mapper word-count-mapper \
+       -file word-count-reducer  \
+       -reducer word-count-reducer \
+       -input /input/textcorpora \
+       -output /output/word-count

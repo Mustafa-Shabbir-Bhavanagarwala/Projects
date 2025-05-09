@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import sys
+
+### Count words -- take in (word, count) and accumulate the count values
+### for each word.  At EOF, emit  (word, total) tuples
+
+totals = {}
+
+for word in sys.stdin:
+	pair = word.strip()
+	word, count = pair.split()
+	totals[word] = int(count) + totals.get(word, 0)
+
+for word, total in totals.items():
+    print(word + " " + str(total))

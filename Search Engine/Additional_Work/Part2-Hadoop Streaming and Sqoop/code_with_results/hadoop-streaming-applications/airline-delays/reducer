@@ -1,0 +1,47 @@
+#!/usr/bin/python3
+
+
+import sys
+from statistics import mean
+#  Current key being processed, and accumulated count
+current_term = None
+
+
+# The term just being read in
+carrier = None
+delaylist=[]
+# input comes from STDIN
+for line in sys.stdin:
+    
+    # remove leading and trailing whitespace
+    line = line.strip()
+    
+
+    carrier, delay = line.split('\t', 1)
+
+    # Convert count (currently a string) to int, but guard against bad data
+    # DANGER!  Continue silently on bad data.
+    
+    try:
+        delay = int(delay)
+    except ValueError:
+        # count was not a number, so silently
+        # ignore/discard this line
+        continue
+
+    if current_term == carrier:
+        # Seeing the same key.  Just accumulate
+        delaylist.append(delay)
+    else:
+        # Seeing either a new different key, or the first one
+        if current_term:
+            # Write result to STDOUT
+            print('%s\t%s\t%s\t%s' % (current_term, min(delaylist),max(delaylist),mean(delaylist)))
+    
+        current_term = carrier
+        delaylist=[]
+        delaylist.append(delay)
+
+# STDIN stream is empty.  But output the last key and value
+if len(delaylist) !=0:
+    print('%s\t%s\t%s\t%s' % (current_term, min(delaylist),max(delaylist),mean(delaylist)))

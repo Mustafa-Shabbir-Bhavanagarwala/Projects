@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+
+import sys
+import re
+
+def termify(word):
+    regex = re.compile('[^a-z]')
+    return regex.sub('', word.lower())
+
+# input comes from STDIN (standard input)
+for line in sys.stdin:
+    # remove leading and trailing whitespace
+    line = line.strip()
+    # split the line into words
+    words = line.split()
+    for word in words:
+        # Convert to lower case, then remove all non-letters
+        term = termify(word)
+        # Emit a key/value pair only if the key is not empty
+        if len(term) > 0:
+            # Output is a tab-delimited string
+            print('%s\t%s' % (term, 1))

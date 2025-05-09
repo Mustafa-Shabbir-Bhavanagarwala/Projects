@@ -1,0 +1,10 @@
+Changes to Week 2 AMI:
+* Changed name of startup.sh to startup
+* Commented out pieces of startup that initialize Hive Metastore (don't need it yet)
+* Installed dos2unix
+* Installed Emacs
+* Moved Week 1 demo files to the AMI and fixed line endings
+* Moved the textcorpora files to the AMI
+* Moved two databases to the AMI (to be used for Sqoop and Hive)
+* Added . to PATH
+* Added Week 2 Demo material

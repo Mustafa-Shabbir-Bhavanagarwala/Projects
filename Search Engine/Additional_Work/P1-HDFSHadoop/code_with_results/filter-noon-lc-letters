@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+import sys
+
+
+### input lines are tab sep word then cout
+#emit only lines whose  words begin lower letter
+
+for line in sys.stdin:
+	line = line.strip()
+	word, count =  line.split()
+	if word[0].islower():
+		print(word + " " + count)
+         

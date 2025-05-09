@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+
+import sys
+import json
+
+for line in sys.stdin:
+    line = json.loads(line)
+    delay_percentage = line["Statistics"]["Flights"]["Delayed"] / line["Statistics"]["Flights"]["Total"]
+    print('%s\t%s\t%s' % (line["Time"]["Year"], line["Airport"]["Code"],delay_percentage))

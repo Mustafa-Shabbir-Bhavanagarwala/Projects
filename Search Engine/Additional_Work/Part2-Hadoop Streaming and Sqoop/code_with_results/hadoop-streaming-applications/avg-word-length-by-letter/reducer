@@ -1,0 +1,52 @@
+#!/usr/bin/python3
+
+#  Start with the code in word count reducer, but remember
+#   * this reducer is taking (wordtype, length)
+#   * and is computing the average
+
+import sys
+
+#  Current key being processed, and accumulated count
+current_term = None
+current_count = 0
+current_sum = 0
+
+# The term just being read in
+term = None
+
+# input comes from STDIN
+for line in sys.stdin:
+    
+    # remove leading and trailing whitespace
+    line = line.strip()
+    
+    # Parse the input we got from mapper -- (term <tab> count)
+    # Second argument to split is maximum number of fields, to guard against bad input tuples
+    term, length = line.split('\t', 1)
+
+    # Convert count (currently a string) to int, but guard against bad data
+    # DANGER!  Continue silently on bad data.
+    
+    try:
+        length = int(length)
+    except ValueError:
+        # count was not a number, so silently
+        # ignore/discard this line
+        continue
+
+    if current_term == term:
+        # Seeing the same key.  Just accumulate
+        current_count += 1
+        current_length += length
+    else:
+        # Seeing either a new different key, or the first one
+        if current_term and current_count > 0:
+            # Write result to STDOUT
+            print('%s\t%s' % (current_term, current_length / current_count))
+        current_count = 1
+        current_length = length
+        current_term = term
+
+# STDIN stream is empty.  But output the last key and value
+if current_count > 0:
+    print('%s\t%s' % (current_term, current_length  / current_count))

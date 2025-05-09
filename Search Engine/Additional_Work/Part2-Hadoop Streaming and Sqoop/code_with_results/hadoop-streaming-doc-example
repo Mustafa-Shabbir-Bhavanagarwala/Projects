@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+hdfs dfs -mkdir /input
+hdfs dfs -put ~/textcorpora /input/textcorpora
+hdfs dfs -mkdir /output
+
+$HADOOP_HOME/bin/hadoop  jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar \
+    -input /input/textcorpora \
+    -output /output/hadoop-streaming-output \
+    -mapper /bin/cat \
+    -reducer /bin/wc

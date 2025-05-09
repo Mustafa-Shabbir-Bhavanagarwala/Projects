@@ -1,0 +1,21 @@
+#!/usr/bin/bash
+
+
+
+hdfs dfs -mkdir /input
+hdfs dfs -put $1 /input/$1
+hdfs dfs -mkdir /output
+
+cd WordCountCleanJava
+compile-map-reduce WordCountClean
+run-map-reduce WordCountClean  /input/$1 /output/word-count-output
+cd ..
+hdfs dfs -getmerge /output/word-count-output word-count-output.txt
+cat word-count-output.txt | filter-noon-lc-letters | sort -k 2 -n -r | head -n $2
+
+hdfs dfs -rm -r /input /output
+
+
+
+
+

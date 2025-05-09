@@ -1,0 +1,6 @@
+# Compile a JAR that can be sent to Hadoop to run a MapReduce program
+#   $1 is the name of the Java file containing the MapReduce program, and 
+#   will also be the name of the JAR file that will be sent to Hadoop
+
+javac -cp $(hadoop classpath) $1.java
+jar cf $1.jar *.class

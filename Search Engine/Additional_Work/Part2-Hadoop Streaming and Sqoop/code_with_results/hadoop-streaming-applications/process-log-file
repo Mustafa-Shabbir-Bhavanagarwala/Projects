@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+hdfs dfs -mkdir /input
+hdfs dfs -put /home/ubuntu/Week2/LabFiles/$2 /input/$2
+hdfs dfs -mkdir /output
+
+run-hadoop-streaming $1 $2 $3
+
+hdfs dfs -getmerge /output/$3 log-processing.txt
+cat log-processing.txt

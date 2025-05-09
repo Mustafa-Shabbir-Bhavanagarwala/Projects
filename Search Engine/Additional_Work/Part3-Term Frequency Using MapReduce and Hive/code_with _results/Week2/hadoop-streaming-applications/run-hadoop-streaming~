@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# This is a template for running Hadoop streaming jobs.
+#   * An "application" is a mapper and a reducer, and also specifies the output location
+#      (for example word-count)
+#   * Create a directory with the name of the application
+#   * Within that directory the mapper code is in a file with name 'mapper'
+#      The reducer code is in a file with name 'reducer'
+
+# First argument is the application name (the directory with mapper and reducer). 
+# Second argument is input directory in HDFS.  Relative to /input
+# Third argument is output directory in HDFS.  Relative to /output
+
+STREAMING_JAR=$HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar
+
+hdfs dfs -rm -r /output/$1
+
+hadoop jar $STREAMING_JAR \
+       -file $1/mapper\
+       -file $1/reducer\
+       -mapper $1/mapper \
+       -reducer $1/reducer \
+       -input /input/$2 \
+       -output /output/$3
