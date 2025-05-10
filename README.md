@@ -241,6 +241,19 @@ US  🔗</a>
 </p>
 </ul>
 
+## **Note for Windows Users: This repo may contain long file paths**
+
+If you download this repository as a ZIP, you may encounter **"Path Too Long"** errors when extracting on Windows.
+
+To avoid issues:
+
+- ✅ Use **[7-Zip](https://www.7-zip.org/)** to extract the ZIP file instead of the default Windows extractor.
+      Save the ZIP to a short path like `C:\z\` before extracting.
+- ✅ Alternatively, **clone the repository** using Git to avoid path length limitations:
+  ```bash
+  git clone https://github.com/Mustafa-Shabbir-Bhavanagarwala/Projects.git
+
+
 ## Technologies used:
 <p> Below is a summary of the technologies used in various projects in the repository</p>
 <ul>
