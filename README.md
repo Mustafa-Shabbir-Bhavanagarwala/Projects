@@ -75,12 +75,12 @@
 
 <p>
 <li><h3>
-<a href="./TF-IDF Driven Document Search Engine - SmartSearch/" >SmartSearch: TF-IDF Driven Document Search Engine 🔗</a>
+<a href="./Search Engine/" >SmartSearch: TF-IDF Driven Document Search Engine 🔗</a>
 </h3></li>
 <ul>
-<li><i>Objective:</i> In this project, a search application is built that uses TF-IDF to compute the “relevance” of a document to a search query and it displays the most relevant documents. The project also implements TF-IDF calculations using Spark RDDs and Spark DataFrames. </li>
+<li><i>Objective:</i> In this project, a search application is built that uses TF-IDF to compute the “relevance” of a document to a search query and it displays the most relevant documents. The project also implements TF-IDF calculations using Spark RDDs and Spark DataFrames. Distributed preprocessing is executed for textual data on AWS using Hadoop, HDFS, MapReduce, Hive, and Sqoop</li>
 <li><i>Techniques:</i> TF-IDF computation, Search Ranking, Hadoop Streaming</li>
-<li><i>Tools:</i> Apache Spark, Hadoop, AWS:EMR, DynamoDB, Python</li>
+<li><i>Tools:</i> Apache Spark, Hadoop, AWS:EMR, DynamoDB, HDFS, MapReduce, Hive, and Sqoop, Python</li>
 </ul>
 </p>
 
