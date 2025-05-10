@@ -29,6 +29,7 @@ If you download this repository as a ZIP, you may encounter **"Path Too Long"** 
 To avoid issues:
 
 - ✅ Use **[7-Zip](https://www.7-zip.org/)** to extract the ZIP file instead of the default Windows extractor.
+      Save the ZIP to a short path like `C:\z\` before extracting.
 - ✅ Alternatively, **clone the repository** using Git to avoid path length limitations:
   ```bash
   git clone https://github.com/Mustafa-Shabbir-Bhavanagarwala/Projects.git
