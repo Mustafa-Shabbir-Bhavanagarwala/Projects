@@ -18,9 +18,11 @@ presentation.</p>
 <p>In the case of Spark Dataframes, two phases which are the indexing phase and the query 
 phase are implemented. A function named ‘relevance’ is built where the query is a string of query 
 words, and the index is a data frame produced by the ‘indexDocuments’ function.</p>
+
+<p>Executed distributed preprocessing of textual data on AWS using Hadoop, HDFS, MapReduce, Hive, and Sqoop</p>
 <p>The project has significant use in Enterprise Search Solutions, E-commerce Platforms, 
 Content Management Systems, Digital Libraries for retrieving relevant documents.</p>
-<p>Technology: Python, Apache Spark, AWS: EMR, AWS: Cloudshell, DynamoDB</p>
+<p>Technology: Python, Apache Spark, AWS: EMR, AWS: Cloudshell, DynamoDB, Hadoop, HDFS, MapReduce, Hive, and Sqoop</p>
 
 **Note for Windows Users: This repo may contain long file paths**
 
