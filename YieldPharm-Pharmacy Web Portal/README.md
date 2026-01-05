@@ -1,9 +1,9 @@
-<h1 align="center">PharmESY – Pharmacy Operations Portal</h1>
+<h1 align="center">YieldPharm-Pharmacy Web Portal</h1>
 
 <p align="right"><b>By: Mustafa Shabbir Bhavanagarwala</b></p>
 
 ## About the Project
-<p>PharmESY is a PHP/MySQL web app that helps a pharmacy store and access day-to-day records in one place—medicines, suppliers/manufacturers, customers, doctors, and pharmacists. It uses a secure login and form-based pages so staff can add, update, and review details quickly, while also getting alerts for near-expiry and low-stock medicines.</p>
+<p>YieldPharm is a PHP/MySQL web app that helps a pharmacy store and access day-to-day records in one place—medicines, suppliers/manufacturers, customers, doctors, and pharmacists. It uses a secure login and form-based pages so staff can add, update, and review details quickly, while also getting alerts for near-expiry and low-stock medicines.</p>
 
 ## Key Features
 - Login-based access (username/password)
