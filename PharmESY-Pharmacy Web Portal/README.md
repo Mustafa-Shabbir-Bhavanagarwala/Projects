@@ -24,6 +24,6 @@
 <li>ER Diagram</li>
 </ul>
 
-![Entity Relationship Diagram](./images/Picture1.png)
+![Entity Relationship Diagram](./images/Picture1.jpg)
 <br>
 <br>
