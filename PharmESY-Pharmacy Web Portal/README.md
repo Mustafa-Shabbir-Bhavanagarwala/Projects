@@ -20,10 +20,8 @@
 - Tools: Visual Studio Code, XAMPP, phpMyAdmin
 
 
-<ul>
-<li>ER Diagram</li>
-</ul>
+## ER Diagram
+
 
 ![Entity Relationship Diagram](./images/Picture1.jpg)
-<br>
-<br>
+
