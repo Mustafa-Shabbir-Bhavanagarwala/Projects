@@ -1,8 +1,8 @@
-<h1 align="center">Data Science, Machine Learning, Big Data, & Artificial Intelligence Projects </h1>
+<h1 align="center">Data Science, Software Engineering, Machine Learning, Big Data, & Artificial Intelligence Projects </h1>
 
 ## Overview
 
-<p>This repository contains projects based on Data Science, Machine Learning, Data Analysis, Big Data, Artificial Intelligence, Web Analytics and Database Development & Data Management. The projects use various machine learning techniques, including classification, regression, clustering, time series forecasting, and natural language processing. The projects aim to solve real-world problems, providing insights and predictive capabilities. The projects deal with Data Collection, Data Preprocessing, Data Analysis, Model building and implementation, Model Evaluation, Model selection, Model Optimization, Producing accurate results.</p>
+<p>This repository contains projects based on Data Science, Software Engineering, Machine Learning, Data Analysis, Big Data, Artificial Intelligence, Web Analytics and Database Development & Data Management. The projects use various machine learning techniques, including classification, regression, clustering, time series forecasting, and natural language processing. The projects use efficient Data Structures and Algorithm design. The projects aim to solve real-world problems, providing insights and predictive capabilities. The projects deal with Data Collection, Data Preprocessing, Data Analysis, Model building and implementation, Model Evaluation, Model selection, Model Optimization, Producing accurate results.</p>
 
 <p>My GitHub Repository for recent Capstone project work experience at Costco Wholesale is here: <a href="https://github.com/Capstone-Project-Team-Costco/Costco_Data/tree/main/Notebooks/Mustafa" >Repository 🔗</a> </p>
 
@@ -261,6 +261,8 @@ To avoid issues:
 <li><b>Programming Languages:</b> Python, R, SQL</li>
 
 <li><b>Machine Learning:</b>NLTK, SciKit-Learn, Spacy, Seaborn, Tensorflow, PyTorch, SciPy, Plotly, Missingno, Statsmodels, Tidyverse</li>
+
+<li><b>Software Engineering:</b>Data Structures, Algorithm design, Git, RESTful APIs, A/B testing</li>
 
 <li><b>Data Engineering tools and Cloud services:</b> Apache Spark, AWS:EMR, EC2, Hadoop Streaming, Sqoop, Avro, DynamoDB, Hive</li>
 <li><b>Data visualization tools:</b> Power BI, Tableau, Excel, Google Analytics, Looker Studio, Seaborn</li>
