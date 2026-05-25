@@ -4,7 +4,7 @@
 
 <p>This repository contains projects based on Data Science, Software Engineering, Machine Learning, Data Analysis, Big Data, Artificial Intelligence, Web Analytics and Database Development & Data Management. The projects use various machine learning techniques, including classification, regression, clustering, time series forecasting, and natural language processing. The projects use efficient Data Structures and Algorithm design. The projects aim to solve real-world problems, providing insights and predictive capabilities. The projects deal with Data Collection, Data Preprocessing, Data Analysis, Model building and implementation, Model Evaluation, Model selection, Model Optimization, Producing accurate results.</p>
 
-<p>My GitHub Repository for recent Capstone project work experience at Costco Wholesale is here: <a href="https://github.com/Capstone-Project-Team-Costco/Costco_Data/tree/main/Notebooks/Mustafa" >Repository 🔗</a> </p>
+
 
 ## Projects List
 <p>Each folder in this repository represents a project. Below is a summary of each project and the methodologies applied.</p>
